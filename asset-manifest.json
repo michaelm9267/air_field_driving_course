@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/air_field_driving_course/static/css/main.f0b0c83f.css",
+    "main.js": "/air_field_driving_course/static/js/main.0a471e41.js",
+    "static/js/453.6ca3bae3.chunk.js": "/air_field_driving_course/static/js/453.6ca3bae3.chunk.js",
+    "static/media/map.png": "/air_field_driving_course/static/media/map.c6c1c094e60ce954b712.png",
+    "index.html": "/air_field_driving_course/index.html",
+    "main.f0b0c83f.css.map": "/air_field_driving_course/static/css/main.f0b0c83f.css.map",
+    "main.0a471e41.js.map": "/air_field_driving_course/static/js/main.0a471e41.js.map",
+    "453.6ca3bae3.chunk.js.map": "/air_field_driving_course/static/js/453.6ca3bae3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0b0c83f.css",
+    "static/js/main.0a471e41.js"
+  ]
+}
