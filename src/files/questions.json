@@ -708,8 +708,8 @@
       "map": true,
       "question": "What does Item 21 identify?",
       "options": [
-        { "id": 1, "option": "Twy Echo" },
-        { "id": 2, "option": "Twy Foxtrot" },
+        { "id": 1, "option": "Twy EchoFoxtrot" },
+        { "id": 2, "option": "Twy Echo" },
         { "id": 3, "option": "Twy Golf" },
         { "id": 4, "option": "Twy Delta" }
       ]
