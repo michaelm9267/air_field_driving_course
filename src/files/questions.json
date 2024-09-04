@@ -3,7 +3,7 @@
     {
       "id": 1,
       "map": false,
-      "question": "What must vehicle operators do when entering the Controlled Movement Area (CMA)?",
+      "question": "What must vehicle operators do when operating a vehicle in the Controlled Movement Area (CMA)?",
       "options": [
         { "id": 1, "option": "Turn off their lights" },
         { "id": 2, "option": "Enter without specific approval" },
@@ -51,19 +51,15 @@
       ]
     },
     {
-      "id": 5,
-      "map": false,
-      "question": "What should vehicle operators use when driving in the CMA?",
-      "options": [
-        { "id": 1, "option": "Only headlights" },
-        { "id": 2, "option": "No lights at all" },
-        {
-          "id": 3,
-          "option": "Light emitting diode or rotating beacon lights and/or emergency or hazard warning flashers"
-        },
-        { "id": 4, "option": "Only hazard warning flashers" }
-      ]
-    },
+        "id": 5,
+        "question": "What is the correct sequence of the phonetic alphabet for the first four letters?",
+        "options": [
+          { "id": 1, "option": "Alpha, Bravo, Charlie, Delta" },
+          { "id": 2, "option": "Nancy, Oscar, Purple, Quincy" },
+          { "id": 3, "option": "Alfred, Boston, Clark, Denver" },
+          { "id": 4, "option": "Andy, Bruce, Carter, Dean" }
+        ]
+      },
     {
       "id": 6,
       "map": false,
@@ -141,10 +137,10 @@
       "map": false,
       "question": "What color scheme is used for a Taxiway Direction Sign?",
       "options": [
-        { "id": 1, "option": "Yellow on black" },
-        { "id": 2, "option": "Black on yellow with arrows" },
-        { "id": 3, "option": "Red on white" },
-        { "id": 4, "option": "White on red" }
+        { "id": 1, "option": "Yellow lettering on a black background" },
+        { "id": 2, "option": "Black lettering on a yellow background" },
+        { "id": 3, "option": "Red lettering on a white background" },
+        { "id": 4, "option": "White lettering on a red background" }
       ]
     },
     {
@@ -224,10 +220,10 @@
       "map": false,
       "question": "What color scheme is used for a Mandatory Sign on the airfield?",
       "options": [
-        { "id": 1, "option": "White text on black background" },
-        { "id": 2, "option": "Yellow text on black background" },
-        { "id": 3, "option": "White text on red background" },
-        { "id": 4, "option": "Red text on white background" }
+        { "id": 1, "option": "White legend on black background" },
+        { "id": 2, "option": "Yellow legend on black background" },
+        { "id": 3, "option": "White legend on red background" },
+        { "id": 4, "option": "Red legend on white background" }
       ]
     },
     {
@@ -244,59 +240,59 @@
     {
       "id": 21,
       "map": false,
-      "question": "When Ground Control instructs 'Hold short of runway 18', how should you, vehicle 34, respond?",
+      "question": "When Ground Control instructs 'Hold short of runway one eight', how should you, vehicle 34, respond?",
       "options": [
-        { "id": 1, "option": "'Vehicle 34 holding short of runway 18'" },
+        { "id": 1, "option": "'Vehicle three four holding short of runway one eight'" },
         { "id": 2, "option": "'Vehicle 34 cleared to cross runway 18'" },
-        { "id": 3, "option": "'Roger, proceeding onto runway 18'" },
+        { "id": 3, "option": "'Roger, proceeding onto runway one eight'" },
         { "id": 4, "option": "'Runway 18, crossing now'" }
       ]
     },
     {
       "id": 22,
       "map": false,
-      "question": "Ground Control says 'Taxi to runway 22 via taxiway Bravo'. How should you, Vehicle 45, respond?",
+      "question": "Ground Control says 'Taxi to runway two two via taxiway Bravo'. How should you, Vehicle 45, respond?",
       "options": [
-        { "id": 1, "option": "'Vehicle 45, taxiing to runway 22 via Bravo'" },
+        { "id": 1, "option": "'Vehicle four five, taxiing to runway two two via Bravo'" },
         { "id": 2, "option": "'Vehicle 45, proceeding to runway 22'" },
-        { "id": 3, "option": "'Runway 22, via taxiway Alpha'" },
-        { "id": 4, "option": "'Holding short of runway 22'" }
+        { "id": 3, "option": "'Runway two two, via taxiway Alpha'" },
+        { "id": 4, "option": "'Holding short of runway two two'" }
       ]
     },
     {
       "id": 23,
       "map": false,
-      "question": "If Tower instructs 'Expedite crossing runway 27', what should you, Vehicle 12, say and do?",
+      "question": "If Tower instructs 'Expedite crossing runway two seven', what should you, Vehicle 12, say and do?",
       "options": [
         {
           "id": 1,
           "option": "'Vehicle 12, crossing runway 27 at normal speed'"
         },
         { "id": 2, "option": "'Vehicle 12, holding short of runway 27'" },
-        { "id": 3, "option": "'Vehicle 12, crossing runway 27 expeditiously'" },
+        { "id": 3, "option": "'Vehicle one two, crossing runway two seven expeditiously'" },
         { "id": 4, "option": "'Vehicle 12, proceeding with caution'" }
       ]
     },
     {
       "id": 24,
       "map": false,
-      "question": "If Ground Control instructs 'Vehicle 78, hold short of Taxiway Charlie,' how should you respond?",
+      "question": "If Ground Control instructs 'Vehicle seven eight, hold short of Taxiway Charlie,' how should you respond?",
       "options": [
-        { "id": 1, "option": "'Holding short of Taxiway Charlie, Vehicle 78'" },
+        { "id": 1, "option": "'Vehicle seven eight, Holding short of Taxiway Charlie'" },
         { "id": 2, "option": "'Crossing Taxiway Charlie, Vehicle 78'" },
         { "id": 3, "option": "'Roger, crossing Taxiway Charlie'" },
-        { "id": 4, "option": "'Vehicle 78 proceeding across Taxiway Charlie'" }
+        { "id": 4, "option": "'Vehicle seven eight proceeding across Taxiway Charlie'" }
       ]
     },
     {
       "id": 25,
       "map": false,
-      "question": "Tower instructs 'Cleared to cross runway 09'. What should you, Vehicle 21, do before crossing?",
+      "question": "Tower instructs 'Cleared to cross runway zero niner'. What should you, Vehicle 21, do before crossing?",
       "options": [
         { "id": 1, "option": "'Vehicle 21 crossing runway 09 immediately'" },
         {
           "id": 2,
-          "option": "'Vehicle 21, cleared to cross runway 09, checking for traffic'"
+          "option": "'Vehicle two one, cleared to cross runway zero niner'"
         },
         { "id": 3, "option": "'Vehicle 21 waiting for another confirmation'" },
         { "id": 4, "option": "'Vehicle 21 crossing with caution'" }
@@ -790,6 +786,36 @@
         { "id": 3, "option": "Twy Juliet" },
         { "id": 4, "option": "Twy Hotel" }
       ]
-    }
+    },
+    {
+        "id": 69,
+        "question": "What is the primary document that certifies personnel to operate a vehicle on the airfield?",
+        "options": [
+          { "id": 1, "option": "AF Form 123" },
+          { "id": 2, "option": "AF Form 679" },
+          { "id": 3, "option": "AF Form 483" },
+          { "id": 4, "option": "AF Form 102" }
+        ]
+      },
+      {
+        "id": 70,
+        "question": "What training must be documented before issuing an AF Form 483?",
+        "options": [
+          { "id": 1, "option": "Classroom training only" },
+          { "id": 2, "option": "Annual refresher training only" },
+          { "id": 3, "option": "Practical day and night familiarization training, classroom training, and documented completion of tests" },
+          { "id": 4, "option": "Online training only" }
+        ]
+      },
+      {
+        "id": 71,
+        "question": "How often is refresher training required for airfield driving personnel?",
+        "options": [
+          { "id": 1, "option": "Every 2 years" },
+          { "id": 2, "option": "Upon reissuance of the AF Form 483 or annually" },
+          { "id": 3, "option": "Every 5 years" },
+          { "id": 4, "option": "Only when requested by the unit commander" }
+        ]
+      }
   ]
 }
