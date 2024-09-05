@@ -11,6 +11,7 @@ const QuestionBox = () => {
     const [currentIndex, setCurrentIndex] = useState(-1); // Tracks the current index in the history
     const [results, setResults] = useState([]); // Array to track correct/incorrect answers
     const [shuffledOptions, setShuffledOptions] = useState([]); // Tracks shuffled options
+    const [questionNumber, setQuestionNumber] = useState(0); // Tracks the question number
 
     // Shuffle function to randomize the order of options
     const shuffleArray = (array) => {
@@ -61,6 +62,7 @@ const QuestionBox = () => {
             setNum(nextQuestionNum);
             setSelectedOptionId(null); // Reset selected option
             setIsCorrect(null); // Reset correctness
+            setQuestionNumber(questionNumber + 1); // Increment the question number
 
             // Shuffle the options for the new question
             const question = questions.questions.find(q => q.id === nextQuestionNum);
@@ -80,6 +82,7 @@ const QuestionBox = () => {
             setCurrentIndex(currentIndex - 1);
             setSelectedOptionId(null); // Reset selected option
             setIsCorrect(null); // Reset correctness
+            setQuestionNumber(questionNumber - 1); // Decrement the question number
 
             // Shuffle the options for the previous question
             const question = questions.questions.find(q => q.id === prevQuestionNum);
@@ -124,7 +127,6 @@ const QuestionBox = () => {
 
     return (
         <div className='main-cont'>
-     
             <div className='border-container'>
                 {questions.questions.map((pic) => {
                     if (num === pic.id && pic.map) {
@@ -133,7 +135,8 @@ const QuestionBox = () => {
                 })}
 
                 <div className='question-cont'>
-                    <p>{questions.questions.map((q) => {
+                    
+                    <p><span className='question-number'>{questionNumber}/{questions.questions.length + 1} </span> {questions.questions.map((q) => {
                         if (num === q.id) {
                             return q.question;
                         }
