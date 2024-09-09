@@ -6,7 +6,7 @@ import QuestionReview from './QuestionReview';
 import InfoInput from './InfoInput';
 import ScoreSheet from './ScoreSheet';
 
-const QuestionBox = () => {
+const QuestionBox = ({testMode}) => {
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
   const [num, setNum] = useState(1);
   const [selectedOptions, setSelectedOptions] = useState({});
@@ -74,7 +74,7 @@ const QuestionBox = () => {
     return q.options.map((opt) => {
       const correctAnswer = answers.answers.find((answer) => answer.id === q.id)?.correct_answer;
       const isSelected = selectedOptions[num] === opt.id;
-      const buttonStyle = isSelected ? { backgroundColor: opt.id === correctAnswer ? 'green' : 'red' } : {};
+      const buttonStyle = !testMode && isSelected ? { backgroundColor: opt.id === correctAnswer ? 'green' : 'red' } : testMode && isSelected ? {backgroundColor: "#36454F", color: "white"}: {}
 
       return (
         <button

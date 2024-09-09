@@ -1,10 +1,10 @@
 import React from 'react'
 import Header from '../components/Header'
 
-const Layout = ({children}) => {
+const Layout = ({children, setTestMode}) => {
   return (
     <div>
-        <Header />
+        <Header  setTestMode={setTestMode} />
         {children}
     </div>
   )

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({setTestMode}) => {
   return (
     <header>
       <div className="navbar-container">
@@ -10,6 +10,10 @@ const Header = () => {
             <h1>Air Field Driving Practice Test</h1>
           </div>
         </a>
+        <div className="test-mode" style={{display: 'flex', gap: '20px'}} >
+          <button onClick={() => setTestMode(false)} className='testMode-button'>Practice Mode</button>
+          <button onClick={() => setTestMode(true)} className='testMode-button'>Test Mode</button>
+        </div>
         <nav className="navbar">
           <a
             className="nav-link"
