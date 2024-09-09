@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/air_field_driving_course/static/css/main.07c9f396.css",
-    "main.js": "/air_field_driving_course/static/js/main.3a7f1fb4.js",
+    "main.css": "/air_field_driving_course/static/css/main.0da9f793.css",
+    "main.js": "/air_field_driving_course/static/js/main.b760930b.js",
     "static/js/453.6ca3bae3.chunk.js": "/air_field_driving_course/static/js/453.6ca3bae3.chunk.js",
     "static/media/map.png": "/air_field_driving_course/static/media/map.c6c1c094e60ce954b712.png",
     "index.html": "/air_field_driving_course/index.html",
-    "main.07c9f396.css.map": "/air_field_driving_course/static/css/main.07c9f396.css.map",
-    "main.3a7f1fb4.js.map": "/air_field_driving_course/static/js/main.3a7f1fb4.js.map",
+    "main.0da9f793.css.map": "/air_field_driving_course/static/css/main.0da9f793.css.map",
+    "main.b760930b.js.map": "/air_field_driving_course/static/js/main.b760930b.js.map",
     "453.6ca3bae3.chunk.js.map": "/air_field_driving_course/static/js/453.6ca3bae3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07c9f396.css",
-    "static/js/main.3a7f1fb4.js"
+    "static/css/main.0da9f793.css",
+    "static/js/main.b760930b.js"
   ]
 }
