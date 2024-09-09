@@ -1,63 +1,58 @@
 {
   "questions": [
     {
-      "id": 1,
-      "map": false,
-      "question": "What must vehicle operators do when operating a vehicle in the Controlled Movement Area (CMA)?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Turn off their lights" },
-        { "id": 2, "option": "Enter without specific approval" },
-        {
-          "id": 3,
-          "option": "Use light emitting diode or rotating beacon lights"
-        },
-        { "id": 4, "option": "Contact ground control after entering" }
-      ]
-    },
-    {
-      "id": 2,
-      "map": false,
-      "question": "Which of the following is mandatory for vehicles operating in the CMA on a daily basis?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Using a hand-held radio only" },
-        {
-          "id": 2,
-          "option": "Having a permanent radio mounted in the vehicle"
-        },
-        { "id": 3, "option": "Operating without radio communication" },
-        { "id": 4, "option": "Communicating only when outside the vehicle" }
-      ]
-    },
-    {
-      "id": 3,
-      "map": false,
-      "question": "What is the required procedure for vehicle operators and pedestrians in the event of vehicle or Air Traffic Control Tower radio failure while in the CMA?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Continue operations as usual" },
-        { "id": 2, "option": "Immediately exit the CMA" },
-        { "id": 3, "option": "Wait for further instructions" },
-        { "id": 4, "option": "Use emergency flares to signal" }
-      ]
-    },
-    {
-      "id": 4,
-      "map": false,
-      "question": "What is the correct response when air traffic control tower flashes the runway edge lights on and off?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Slow down and proceed with caution" },
-        { "id": 2, "option": "Stop and wait for instructions" },
-        { "id": 3, "option": "Exit the runway immediately" },
-        { "id": 4, "option": "Ignore and continue operations" }
-      ]
-    },
-    {
+        "id": 1,
+        "map": false,
+        "question": "What must vehicle operators do when operating a vehicle in the Controlled Movement Area (CMA)?",
+        "question-cat": "incursion",
+        "options": [
+          { "id": 1, "option": "Turn off their lights" },
+          { "id": 2, "option": "Enter without specific approval" },
+          { "id": 3, "option": "Use light emitting diode or rotating beacon lights" },
+          { "id": 4, "option": "Contact ground control after entering" }
+        ]
+      },
+      {
+        "id": 2,
+        "map": false,
+        "question": "Which of the following is mandatory for vehicles operating in the CMA on a daily basis?",
+        "question-cat": "general",
+        "options": [
+          { "id": 1, "option": "Using a hand-held radio only" },
+          { "id": 2, "option": "Having a permanent radio mounted in the vehicle" },
+          { "id": 3, "option": "Operating without radio communication" },
+          { "id": 4, "option": "Communicating only when outside the vehicle" }
+        ]
+      },
+      {
+        "id": 3,
+        "map": false,
+        "question": "What is the required procedure for vehicle operators and pedestrians in the event of vehicle or Air Traffic Control Tower radio failure while in the CMA?",
+        "question-cat": "incursion",
+        "options": [
+          { "id": 1, "option": "Continue operations as usual" },
+          { "id": 2, "option": "Immediately exit the CMA" },
+          { "id": 3, "option": "Wait for further instructions" },
+          { "id": 4, "option": "Use emergency flares to signal" }
+        ]
+      },
+      {
+        "id": 4,
+        "map": false,
+        "question": "What is the correct response when air traffic control tower flashes the runway edge lights on and off?",
+        "question-cat": "incursion",
+        "options": [
+          { "id": 1, "option": "Slow down and proceed with caution" },
+          { "id": 2, "option": "Stop and wait for instructions" },
+          { "id": 3, "option": "Exit the runway immediately" },
+          { "id": 4, "option": "Ignore and continue operations" }
+        ]
+      },
+      {
         "id": 5,
+        "map": false,
         "question": "What is the correct sequence of the phonetic alphabet for the first four letters?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "Alpha, Bravo, Charlie, Delta" },
           { "id": 2, "option": "Nancy, Oscar, Purple, Quincy" },
@@ -65,77 +60,71 @@
           { "id": 4, "option": "Andy, Bruce, Carter, Dean" }
         ]
       },
-    {
-      "id": 6,
-      "map": false,
-      "question": "Which of the following actions is prohibited without specific approval from the air traffic control tower?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Entering the CMA" },
-        { "id": 2, "option": "Exiting the CMA" },
-        { "id": 3, "option": "Parking near the runway" },
-        { "id": 4, "option": "Driving on the apron" }
-      ]
-    },
-    {
-      "id": 7,
-      "map": false,
-      "question": "How should vehicle operators and pedestrians respond to all Air Traffic Control instructions?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "With a simple acknowledgment" },
-        {
-          "id": 2,
-          "option": "By following only the most important instructions"
-        },
-        { "id": 3, "option": "By reading back all instructions verbatim" },
-        { "id": 4, "option": "By confirming only if they understand" }
-      ]
-    },
-    {
-      "id": 8,
-      "map": false,
-      "question": "When is a hand-held radio acceptable for use by vehicles in the CMA?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "As the primary means of communication" },
-        {
-          "id": 2,
-          "option": "Only as a backup or when communication is required outside the vehicle"
-        },
-        { "id": 3, "option": "During emergencies only" },
-        { "id": 4, "option": "It is never acceptable" }
-      ]
-    },
-    {
-      "id": 9,
-      "map": false,
-      "question": "What must vehicles and pedestrians operating on the CMA always monitor?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Traffic signals" },
-        { "id": 2, "option": "Visual cues" },
-        { "id": 3, "option": "The appropriate radio frequency" },
-        { "id": 4, "option": "Emergency alarms" }
-      ]
-    },
-    {
-      "id": 10,
-      "map": false,
-      "question": "What must vehicle operators do before entering the airfield?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Ensure the vehicle has enough fuel" },
-        { "id": 2, "option": "Conduct an operational test of the radio" },
-        { "id": 3, "option": "Turn on the headlights" },
-        { "id": 4, "option": "Check the weather conditions" }
-      ]
-    },
+      {
+        "id": 6,
+        "map": false,
+        "question": "Which of the following actions is prohibited without specific approval from the air traffic control tower?",
+        "question-cat": "general",
+        "options": [
+          { "id": 1, "option": "Entering the CMA" },
+          { "id": 2, "option": "Exiting the CMA" },
+          { "id": 3, "option": "Parking near the runway" },
+          { "id": 4, "option": "Driving on the apron" }
+        ]
+      },
+      {
+        "id": 7,
+        "map": false,
+        "question": "How should vehicle operators and pedestrians respond to all Air Traffic Control instructions?",
+        "question-cat": "general",
+        "options": [
+          { "id": 1, "option": "With a simple acknowledgment" },
+          { "id": 2, "option": "By following only the most important instructions" },
+          { "id": 3, "option": "By reading back all instructions verbatim" },
+          { "id": 4, "option": "By confirming only if they understand" }
+        ]
+      },
+      {
+        "id": 8,
+        "map": false,
+        "question": "When is a hand-held radio acceptable for use by vehicles in the CMA?",
+        "question-cat": "general",
+        "options": [
+          { "id": 1, "option": "As the primary means of communication" },
+          { "id": 2, "option": "Only as a backup or when communication is required outside the vehicle" },
+          { "id": 3, "option": "During emergencies only" },
+          { "id": 4, "option": "It is never acceptable" }
+        ]
+      },
+      {
+        "id": 9,
+        "map": false,
+        "question": "What must vehicles and pedestrians operating on the CMA always monitor?",
+        "question-cat": "general",
+        "options": [
+          { "id": 1, "option": "Traffic signals" },
+          { "id": 2, "option": "Visual cues" },
+          { "id": 3, "option": "The appropriate radio frequency" },
+          { "id": 4, "option": "Emergency alarms" }
+        ]
+      },
+      {
+        "id": 10,
+        "map": false,
+        "question": "What must vehicle operators do before entering the airfield?",
+        "question-cat": "general",
+        "options": [
+          { "id": 1, "option": "Ensure the vehicle has enough fuel" },
+          { "id": 2, "option": "Conduct an operational test of the radio" },
+          { "id": 3, "option": "Turn on the headlights" },
+          { "id": 4, "option": "Check the weather conditions" }
+        ]
+      },
     {
       "id": 11,
       "map": false,
       "question": "What does a Mandatory Sign on the airfield indicate?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "General information" },
         { "id": 2, "option": "Directions to taxiways" },
@@ -147,7 +136,7 @@
       "id": 12,
       "map": false,
       "question": "What color scheme is used for a Taxiway Direction Sign?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "Yellow lettering on a black background" },
         { "id": 2, "option": "Black lettering on a yellow background" },
@@ -159,7 +148,7 @@
       "id": 13,
       "map": false,
       "question": "What does a Boundary Sign indicate?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "Taxiway directions" },
         { "id": 2, "option": "Runway location" },
@@ -174,7 +163,7 @@
       "id": 14,
       "map": false,
       "question": "Where is a Runway Exit Sign typically located?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "At the beginning of the runway" },
         { "id": 2, "option": "At the center of the runway" },
@@ -186,7 +175,7 @@
       "id": 15,
       "map": false,
       "question": "What is the color of a Taxiway Location Sign?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "Yellow text on a black background" },
         { "id": 2, "option": "Black text on a yellow background" },
@@ -198,7 +187,7 @@
       "id": 16,
       "map": false,
       "question": "What type of sign provides directions to remote locations on the airfield?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "Boundary Sign" },
         { "id": 2, "option": "Destination Sign" },
@@ -210,7 +199,7 @@
       "id": 17,
       "map": false,
       "question": "Which sign is used to indicate critical areas like Instrument Landing System (ILS) zones?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "Destination Sign" },
         { "id": 2, "option": "Taxiway Direction Sign" },
@@ -222,7 +211,7 @@
       "id": 18,
       "map": false,
       "question": "What is the primary purpose of the 'Hold Position' sign?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "To direct vehicles to parking areas" },
         {
@@ -237,7 +226,7 @@
       "id": 19,
       "map": false,
       "question": "What color scheme is used for a Mandatory Sign on the airfield?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "White legend on black background" },
         { "id": 2, "option": "Yellow legend on black background" },
@@ -260,11 +249,11 @@
     {
       "id": 21,
       "map": false,
-      "question": "When Ground Control instructs 'Hold short of runway one eight', how should you, vehicle 34, respond?",
-      "question-cat": "",
+      "question": "When Ground Control instructs 'Vehicle three four, Dyess Ground, Hold short of runway one eight', how should you, vehicle 34, respond?",
+      "question-cat": "communication",
       "options": [
-        { "id": 1, "option": "'Vehicle three four holding short of runway one eight'" },
-        { "id": 2, "option": "'Vehicle 34 cleared to cross runway 18'" },
+        { "id": 1, "option": "'Dyess Ground, Vehicle three four holding short of runway one eight'" },
+        { "id": 2, "option": "'Dyess Ground, Vehicle 34 cleared to cross runway 18'" },
         { "id": 3, "option": "'Roger, proceeding onto runway one eight'" },
         { "id": 4, "option": "'Runway 18, crossing now'" }
       ]
@@ -272,11 +261,11 @@
     {
       "id": 22,
       "map": false,
-      "question": "Ground Control says 'Taxi to runway two two via taxiway Bravo'. How should you, Vehicle 45, respond?",
-      "question-cat": "",
+      "question": "Ground Control says 'Vehicle Four Five, Dyess Ground, Taxi to runway two two via taxiway Bravo'. How should you, Vehicle 45, respond?",
+      "question-cat": "communication",
       "options": [
-        { "id": 1, "option": "'Vehicle four five, taxiing to runway two two via Bravo'" },
-        { "id": 2, "option": "'Vehicle 45, proceeding to runway 22'" },
+        { "id": 1, "option": "'Dyess Ground, Vehicle four five, taxiing to runway two two via Bravo'" },
+        { "id": 2, "option": "'Dyess Ground, Vehicle 45, proceeding to runway 22'" },
         { "id": 3, "option": "'Runway two two, via taxiway Alpha'" },
         { "id": 4, "option": "'Holding short of runway two two'" }
       ]
@@ -284,70 +273,70 @@
     {
       "id": 23,
       "map": false,
-      "question": "If Tower instructs 'Expedite crossing runway two seven', what should you, Vehicle 12, say and do?",
-      "question-cat": "",
+      "question": "If Tower instructs 'Vehicle one two, Dyess Tower, Expedite crossing runway two seven', what should you, Vehicle 1one two, say and do?",
+      "question-cat": "communication",
       "options": [
         {
           "id": 1,
-          "option": "'Vehicle 12, crossing runway 27 at normal speed'"
+          "option": "'Dyess Tower, Vehicle 12, crossing runway two seven at normal speed'"
         },
         { "id": 2, "option": "'Vehicle 12, holding short of runway 27'" },
-        { "id": 3, "option": "'Vehicle one two, crossing runway two seven expeditiously'" },
-        { "id": 4, "option": "'Vehicle 12, proceeding with caution'" }
+        { "id": 3, "option": "'Dyess Tower, Vehicle one two, crossing runway two seven expeditiously'" },
+        { "id": 4, "option": "'Dyess Tower, Vehicle 12, proceeding with caution'" }
       ]
     },
     {
       "id": 24,
       "map": false,
-      "question": "If Ground Control instructs 'Vehicle seven eight, hold short of Taxiway Charlie,' how should you respond?",
-      "question-cat": "",
+      "question": "If Ground Control instructs 'Vehicle seven eight, Dyess Ground, hold short of Taxiway Charlie,' how should you respond?",
+      "question-cat": "communication",
       "options": [
-        { "id": 1, "option": "'Vehicle seven eight, Holding short of Taxiway Charlie'" },
-        { "id": 2, "option": "'Crossing Taxiway Charlie, Vehicle 78'" },
+        { "id": 1, "option": "'Dyess Ground, Vehicle seven eight, Holding short of Taxiway Charlie'" },
+        { "id": 2, "option": "'Crossing Taxiway Charlie, Vehicle 78, Dyess Ground,'" },
         { "id": 3, "option": "'Roger, crossing Taxiway Charlie'" },
-        { "id": 4, "option": "'Vehicle seven eight proceeding across Taxiway Charlie'" }
+        { "id": 4, "option": "'Dyess Ground, Vehicle seven eight proceeding across Taxiway Charlie'" }
       ]
     },
     {
       "id": 25,
       "map": false,
-      "question": "Tower instructs 'Cleared to cross runway zero niner'. What should you, Vehicle 21, do before crossing?",
-      "question-cat": "",
+      "question": "Tower instructs 'Vehicle two one, Dyess Tower, Cleared to cross runway zero niner'. What should you, Vehicle 21, do before crossing?",
+      "question-cat": "communication",
       "options": [
         { "id": 1, "option": "'Vehicle 21 crossing runway 09 immediately'" },
         {
           "id": 2,
-          "option": "'Vehicle two one, cleared to cross runway zero niner'"
+          "option": "'Dyess Tower, Vehicle two one, cleared to cross runway zero niner'"
         },
         { "id": 3, "option": "'Vehicle 21 waiting for another confirmation'" },
-        { "id": 4, "option": "'Vehicle 21 crossing with caution'" }
+        { "id": 4, "option": "'Dyess Tower, Vehicle 21 crossing with caution'" }
       ]
     },
     {
       "id": 26,
       "map": false,
-      "question": "What is your response, Vehicle 16, when Tower says 'Say again'?",
-      "question-cat": "",
+      "question": "What is your response, Vehicle one six, when Tower says 'Say again'?",
+      "question-cat": "communication",
       "options": [
-        { "id": 1, "option": "'Vehicle 16, speaking louder now'" },
-        { "id": 2, "option": "'Vehicle 16, repeating last transmission'" },
-        { "id": 3, "option": "'Vehicle 16, proceeding with last instruction'" },
-        { "id": 4, "option": "'Vehicle 16, confirming location'" }
+        { "id": 1, "option": "'Dyess Tower, Vehicle one six, speaking louder now'" },
+        { "id": 2, "option": "'Dyess Tower, Vehicle one six, *repeating last transmission*'" },
+        { "id": 3, "option": "'Dyess Tower, Vehicle 16, proceeding with last instruction'" },
+        { "id": 4, "option": "'Dyess Tower, Vehicle 16, confirming location'" }
       ]
     },
     {
       "id": 27,
       "map": false,
-      "question": "If you, Vehicle 53, hear 'Roger' from Tower, what does it signify?",
-      "question-cat": "",
+      "question": "If you, Vehicle fife three, hear 'Roger' from Tower, what does it signify?",
+      "question-cat": "communication",
       "options": [
         {
           "id": 1,
-          "option": "'Vehicle 53, Tower did not understand your transmission'"
+          "option": "'Vehicle fife three, Tower did not understand your transmission'"
         },
         {
           "id": 2,
-          "option": "'Vehicle 53, Tower acknowledged your transmission'"
+          "option": "'Vehicle fife three, Tower acknowledged your transmission'"
         },
         {
           "id": 3,
@@ -359,13 +348,13 @@
     {
       "id": 28,
       "map": false,
-      "question": "Ground Control instructs 'Vehicle 90, read back the clearance.' How do you respond?",
-      "question-cat": "",
+      "question": "Ground Control instructs 'Vehicle niner zero, Dyess Ground, read back the clearance.' How do you respond?",
+      "question-cat": "communication",
       "options": [
         { "id": 1, "option": "'Vehicle 90, reading a book while waiting'" },
         {
           "id": 2,
-          "option": "'Vehicle 90, repeating the last instruction given by ATC'"
+          "option": "'Dyess Ground, Vehicle niner zero, *repeating the last instruction given by ATC*'"
         },
         { "id": 3, "option": "'Vehicle 90, proceeding as instructed'" },
         { "id": 4, "option": "'Vehicle 90, requesting clarification'" }
@@ -374,35 +363,35 @@
     {
       "id": 29,
       "map": false,
-      "question": "Tower says 'Negative' to Vehicle 22. What action should you take?",
-      "question-cat": "",
+      "question": "Tower says 'Negative' to Vehicle two two. What action should you take?",
+      "question-cat": "communication",
       "options": [
-        { "id": 1, "option": "'Vehicle 22, ignoring the instruction'" },
-        { "id": 2, "option": "'Vehicle 22, proceeding with the instruction'" },
+        { "id": 1, "option": "'Vehicle two two, ignoring the instruction'" },
+        { "id": 2, "option": "'Vehicle two two, proceeding with the instruction'" },
         {
           "id": 3,
-          "option": "'Vehicle 22, stopping and awaiting further instructions'"
+          "option": "'Vehicle two two, stopping and awaiting further instructions'"
         },
-        { "id": 4, "option": "'Vehicle 22, repeating your request'" }
+        { "id": 4, "option": "'Vehicle two two, repeating your request'" }
       ]
     },
     {
       "id": 30,
       "map": false,
-      "question": "What does Tower mean when they instruct 'Go around', Vehicle 87?",
-      "question-cat": "",
+      "question": "What does Tower mean when they instruct 'Go around', Vehicle eight seven?",
+      "question-cat": "communication",
       "options": [
-        { "id": 1, "option": "'Vehicle 87, circle the airfield once more'" },
-        { "id": 2, "option": "'Vehicle 87, taxi back to the starting point'" },
-        { "id": 3, "option": "'Vehicle 87, clear the runway immediately'" },
-        { "id": 4, "option": "'Vehicle 87, proceed across the runway'" }
+        { "id": 1, "option": "'Vehicle eight seven, circle the airfield once more'" },
+        { "id": 2, "option": "'Vehicle eight seven, taxi back to the starting point'" },
+        { "id": 3, "option": "'Vehicle eight seven, clear the runway immediately'" },
+        { "id": 4, "option": "'Vehicle eight seven, proceed across the runway'" }
       ]
     },
     {
       "id": 31,
       "map": false,
       "question": "If ATC loses communication with a vehicle in the Controlled Movement Area (CMA), what will they do first?",
-      "question-cat": "",
+      "question-cat": "communication",
       "options": [
         { "id": 1, "option": "Flash runway edge lights on and off" },
         { "id": 2, "option": "Send a vehicle to investigate" },
@@ -414,7 +403,7 @@
       "id": 32,
       "map": false,
       "question": "If a vehicle is on the runway and ATC loses radio contact, what action should ATC take?",
-      "question-cat": "",
+      "question-cat": "communication",
       "options": [
         { "id": 1, "option": "Contact the vehicle using light gun signals" },
         { "id": 2, "option": "Wait for the vehicle to exit the runway" },
@@ -429,7 +418,7 @@
       "id": 33,
       "map": false,
       "question": "If ATC cannot establish radio contact and light signals fail, what should they do?",
-      "question-cat": "",
+      "question-cat": "communication",
       "options": [
         { "id": 1, "option": "Ignore the vehicle and continue operations" },
         {
@@ -444,7 +433,7 @@
       "id": 34,
       "map": false,
       "question": "What color light signal is used by ATC to instruct vehicles to stop in case of communication failure?",
-      "question-cat": "",
+      "question-cat": "communication",
       "options": [
         { "id": 1, "option": "Flashing green" },
         { "id": 2, "option": "Steady red" },
@@ -456,7 +445,7 @@
       "id": 35,
       "map": false,
       "question": "What signal does ATC use to indicate that a vehicle should return to its starting point in the event of a communication failure?",
-      "question-cat": "",
+      "question-cat": "communication",
       "options": [
         { "id": 1, "option": "Flashing white light" },
         { "id": 2, "option": "Steady green light" },
@@ -480,7 +469,7 @@
       "id": 37,
       "map": false,
       "question": "What should a vehicle operator do if they lose radio communication while in the CMA?",
-      "question-cat": "",
+      "question-cat": "communication",
       "options": [
         { "id": 1, "option": "Continue normal operations" },
         {
@@ -495,7 +484,7 @@
       "id": 38,
       "map": false,
       "question": "How many feet must you remain in front of or behind an aircraft when its engines are running?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "10 feet in front, 50 feet behind" },
         { "id": 2, "option": "25 feet in front, 200 feet behind" },
@@ -507,7 +496,7 @@
       "id": 39,
       "map": false,
       "question": "How should you park a vehicle in front of an aircraft?",
-      "question-cat": "",
+      "question-cat": "general",
       "options": [
         { "id": 1, "option": "Driver’s side door facing away from the aircraft" },
         { "id": 2, "option": "Driver’s side door facing the aircraft" },
@@ -519,7 +508,7 @@
       "id": 40,
       "map": false,
       "question": "In case of lost communication, how should ATC handle vehicle operations during periods of reduced airfield lighting?",
-      "question-cat": "",
+      "question-cat": "communication",
       "options": [
         { "id": 1, "option": "Ignore the vehicles" },
         {
@@ -534,7 +523,7 @@
       "id": 41,
       "map": true,
       "question": "What does Item 1 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Controlled Movement Area (CMA)" },
         { "id": 2, "option": "ILS/Instrument Critical Areas" },
@@ -546,7 +535,7 @@
       "id": 42,
       "map": true,
       "question": "What does Item 2 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "ILS/Instrument Critical Areas" },
         { "id": 2, "option": "Controlled Movement Area (CMA)" },
@@ -558,7 +547,7 @@
       "id": 43,
       "map": true,
       "question": "What does Item 3 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Visual Flight Rules (VFR) Hold Line/Signs" },
         { "id": 2, "option": "Instrument Hold Line/Signs" },
@@ -570,7 +559,7 @@
       "id": 44,
       "map": true,
       "question": "What does Item 4 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Entry Control Point (ECP)" },
         { "id": 2, "option": "Visual Flight Rules (VFR) Hold Line" },
@@ -582,7 +571,7 @@
       "id": 45,
       "map": true,
       "question": "What does Item 5 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Restricted Area Boundary" },
         { "id": 2, "option": "ILS/Instrument Critical Areas" },
@@ -594,7 +583,7 @@
       "id": 46,
       "map": true,
       "question": "What does Item 6 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Main Airfield Entry Points" },
         { "id": 2, "option": "Entry Control Point (ECP)" },
@@ -606,7 +595,7 @@
       "id": 47,
       "map": true,
       "question": "What does Item 7 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Entry Control Point (ECP)" },
         { "id": 2, "option": "Main Airfield Entry Points" },
@@ -618,7 +607,7 @@
       "id": 48,
       "map": true,
       "question": "What does Item 8 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Air Field Management" },
         { "id": 2, "option": "North Perimeter Road" },
@@ -630,7 +619,7 @@
       "id": 49,
       "map": true,
       "question": "What does Item 9 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Rebound Echo" },
         { "id": 2, "option": "ATC Tower" },
@@ -642,7 +631,7 @@
       "id": 50,
       "map": true,
       "question": "What does Item 10 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Rebound Echo" },
         { "id": 2, "option": "B-1 Ramp" },
@@ -654,7 +643,7 @@
       "id": 51,
       "map": true,
       "question": "What does Item 11 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Transient Ramp" },
         { "id": 2, "option": "C-130 Ramp" },
@@ -666,7 +655,7 @@
       "id": 52,
       "map": true,
       "question": "What does Item 12 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Transient Ramp" },
         { "id": 2, "option": "C-130 Ramp" },
@@ -678,7 +667,7 @@
       "id": 53,
       "map": true,
       "question": "What does Item 13 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "B-1 Ramp" },
         { "id": 2, "option": "Transient Ramp" },
@@ -690,7 +679,7 @@
       "id": 54,
       "map": true,
       "question": "What does Item 14 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "North Perimeter Road" },
         { "id": 2, "option": "South Perimeter Road" },
@@ -702,7 +691,7 @@
       "id": 55,
       "map": true,
       "question": "What does Item 16 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "Twy Alpha" },
         { "id": 2, "option": "Twy Echo" },
@@ -711,142 +700,154 @@
       ]
     },
     {
-      "id": 57,
-      "map": true,
-      "question": "What does Item 17 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Twy Bravo" },
-        { "id": 2, "option": "Twy Charlie" },
-        { "id": 3, "option": "Twy Delta" },
-        { "id": 4, "option": "Twy Echo" }
-      ]
+        "id": 56,
+        "map": true,
+        "question": "What does Item 17 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "Twy Bravo" },
+            { "id": 2, "option": "Twy Charlie" },
+            { "id": 3, "option": "Twy Delta" },
+            { "id": 4, "option": "Twy Echo" }
+        ]
     },
     {
-      "id": 58,
-      "map": true,
-      "question": "What does Item 18 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Twy Charlie" },
-        { "id": 2, "option": "Twy Foxtrot" },
-        { "id": 3, "option": "Twy Golf" },
-        { "id": 4, "option": "Twy Bravo" }
-      ]
+        "id": 57,
+        "map": true,
+        "question": "What does Item 18 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "Twy Charlie" },
+            { "id": 2, "option": "Twy Foxtrot" },
+            { "id": 3, "option": "Twy Golf" },
+            { "id": 4, "option": "Twy Bravo" }
+        ]
     },
     {
-      "id": 59,
-      "map": true,
-      "question": "What does Item 19 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Twy Delta" },
-        { "id": 2, "option": "Twy Juliet" },
-        { "id": 3, "option": "Twy Golf" },
-        { "id": 4, "option": "LZ 163/343" }
-      ]
+        "id": 58,
+        "map": true,
+        "question": "What does Item 19 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "Twy Delta" },
+            { "id": 2, "option": "Twy Juliet" },
+            { "id": 3, "option": "Twy Golf" },
+            { "id": 4, "option": "LZ 163/343" }
+        ]
     },
     {
-      "id": 60,
-      "map": true,
-      "question": "What does Item 20 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Twy Echo" },
-        { "id": 2, "option": "Twy Juliet" },
-        { "id": 3, "option": "Twy Golf" },
-        { "id": 4, "option": "LZ 163/343" }
-      ]
+        "id": 59,
+        "map": true,
+        "question": "What does Item 20 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "Twy Echo" },
+            { "id": 2, "option": "Twy Juliet" },
+            { "id": 3, "option": "Twy Golf" },
+            { "id": 4, "option": "LZ 163/343" }
+        ]
     },
     {
-      "id": 61,
-      "map": true,
-      "question": "What does Item 21 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Twy EchoFoxtrot" },
-        { "id": 2, "option": "Twy Echo" },
-        { "id": 3, "option": "Twy Golf" },
-        { "id": 4, "option": "Twy Delta" }
-      ]
+        "id": 60,
+        "map": true,
+        "question": "What does Item 21 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "Twy EchoFoxtrot" },
+            { "id": 2, "option": "Twy Echo" },
+            { "id": 3, "option": "Twy Golf" },
+            { "id": 4, "option": "Twy Delta" }
+        ]
     },
     {
-      "id": 62,
-      "map": true,
-      "question": "What does Item 22 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Twy Hotel" },
-        { "id": 2, "option": "LZ 163/343" },
-        { "id": 3, "option": "LZ 164/344" },
-        { "id": 4, "option": "Marrlon DropZone CMA" }
-      ]
+        "id": 61,
+        "map": true,
+        "question": "What does Item 22 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "Twy Hotel" },
+            { "id": 2, "option": "LZ 163/343" },
+            { "id": 3, "option": "LZ 164/344" },
+            { "id": 4, "option": "Marrlon DropZone CMA" }
+        ]
     },
     {
-      "id": 63,
-      "map": true,
-      "question": "What does Item 23 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Twy Golf" },
-        { "id": 2, "option": "Twy Juliet" },
-        { "id": 3, "option": "Twy Hotel" },
-        { "id": 4, "option": "LZ 164/344" }
-      ]
+        "id": 62,
+        "map": true,
+        "question": "What does Item 23 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "Twy Golf" },
+            { "id": 2, "option": "Twy Juliet" },
+            { "id": 3, "option": "Twy Hotel" },
+            { "id": 4, "option": "LZ 164/344" }
+        ]
     },
     {
-      "id": 64,
-      "map": true,
-      "question": "What does Item 24 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "LZ 163 Approach Corridor" },
-        { "id": 2, "option": "South Perimeter Road" },
-        { "id": 3, "option": "LZ 164/344" },
-        { "id": 4, "option": "Twy Echo" }
-      ]
+        "id": 63,
+        "map": true,
+        "question": "What does Item 24 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "LZ 163 Approach Corridor" },
+            { "id": 2, "option": "South Perimeter Road" },
+            { "id": 3, "option": "LZ 164/344" },
+            { "id": 4, "option": "Twy Echo" }
+        ]
     },
     {
-      "id": 65,
-      "map": true,
-      "question": "What does Item 25 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "South Perimeter Road" },
-        { "id": 2, "option": "North Perimeter Road" },
-        { "id": 3, "option": "Rebound Echo" },
-        { "id": 4, "option": "Hangar Access Road" }
-      ]
+        "id": 64,
+        "map": true,
+        "question": "What does Item 25 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "South Perimeter Road" },
+            { "id": 2, "option": "North Perimeter Road" },
+            { "id": 3, "option": "Rebound Echo" },
+            { "id": 4, "option": "Hangar Access Road" }
+        ]
     },
     {
-      "id": 66,
-      "map": true,
-      "question": "What does Item 26 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "LZ 163/343" },
-        { "id": 2, "option": "Marrlon DropZone CMA " },
-        { "id": 3, "option": "LZ 164/344" },
-        { "id": 4, "option": "Twy Hotel" }
-      ]
+        "id": 65,
+        "map": true,
+        "question": "What does Item 26 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "LZ 163/343" },
+            { "id": 2, "option": "Marrlon DropZone CMA" },
+            { "id": 3, "option": "LZ 164/344" },
+            { "id": 4, "option": "Twy Hotel" }
+        ]
     },
     {
-      "id": 67,
-      "map": true,
-      "question": "What does Item 27 identify?",
-      "question-cat": "",
-      "options": [
-        { "id": 1, "option": "Twy Juliet" },
-        { "id": 2, "option": "LZ 164/344" },
-        { "id": 3, "option": "LZ 163/343" },
-        { "id": 4, "option": "Twy Golf" }
-      ]
+        "id": 66,
+        "map": true,
+        "question": "What does Item 27 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "Twy Juliet" },
+            { "id": 2, "option": "LZ 164/344" },
+            { "id": 3, "option": "LZ 163/343" },
+            { "id": 4, "option": "Twy Golf" }
+        ]
+    },
+    {
+        "id": 67,
+        "map": true,
+        "question": "What does Item 28 identify?",
+        "question-cat": "map/diagram",
+        "options": [
+            { "id": 1, "option": "LZ 164/344" },
+            { "id": 2, "option": "Twy Golf" },
+            { "id": 3, "option": "Twy Juliet" },
+            { "id": 4, "option": "Twy Hotel" }
+        ]
     },
     {
       "id": 68,
       "map": true,
       "question": "What does Item 28 identify?",
-      "question-cat": "",
+      "question-cat": "map/diagram",
       "options": [
         { "id": 1, "option": "LZ 164/344" },
         { "id": 2, "option": "Twy Golf" },
@@ -856,8 +857,9 @@
     },
     {
         "id": 69,
+        "map": false,
         "question": "What is the primary document that certifies personnel to operate a vehicle on the airfield?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "AF Form 123" },
           { "id": 2, "option": "AF Form 679" },
@@ -867,8 +869,9 @@
       },
       {
         "id": 70,
+        "map": false,
         "question": "What training must be documented before issuing an AF Form 483?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "Classroom training only" },
           { "id": 2, "option": "Annual refresher training only" },
@@ -878,8 +881,9 @@
       },
       {
         "id": 71,
+        "map": false,
         "question": "How often is refresher training required for airfield driving personnel?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "Every 2 years" },
           { "id": 2, "option": "Upon reissuance of the AF Form 483 or annually" },
@@ -889,8 +893,9 @@
       },
       {
         "id": 72,
+        "map": false,
         "question": "How many people can one licensed driver escort at a time?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "One person" },
           { "id": 2, "option": "Four people" },
@@ -900,8 +905,9 @@
       },
       {
         "id": 73,
+        "map": false,
         "question": "What color are runway edge lights, except for the last 2,000 feet, which are yellow?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "White" },
           { "id": 2, "option": "Blue" },
@@ -911,8 +917,9 @@
       },
       {
         "id": 74,
+        "map": false,
         "question": "What color are taxiway edge lights?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "White" },
           { "id": 2, "option": "Yellow" },
@@ -922,8 +929,9 @@
       },
       {
         "id": 75,
+        "map": false,
         "question": "At what ceiling and visibility must all vehicles stop at the ILS hold line?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "500 feet ceiling and 1 mile visibility" },
           { "id": 2, "option": "600 feet ceiling and 3 miles visibility" },
@@ -933,8 +941,9 @@
       },
       {
         "id": 76,
+        "map": false,
         "question": "What is the lateral clearance distance required from the taxiway centerline to a fixed or mobile obstacle?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "100 feet" },
           { "id": 2, "option": "200 feet" },
@@ -944,8 +953,9 @@
       },
       {
         "id": 77,
+        "map": false,
         "question": "What is the lateral clearance distance required from the runway centerline to a fixed or mobile obstacle?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "500 feet" },
           { "id": 2, "option": "1,000 feet" },
@@ -954,8 +964,9 @@
         ]
       },    {
         "id": 78,
+        "map": false,
         "question": "What is the maximum speed for general-purpose vehicles on the airfield?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "5 miles per hour" },
           { "id": 2, "option": "10 miles per hour" },
@@ -965,8 +976,9 @@
       },
       {
         "id": 79,
+        "map": false,
         "question": "What is required before entering the airfield or returning from an unpaved area?",
-        "question-cat": "",
+        "question-cat": "incursion",
         "options": [
           { "id": 1, "option": "Inspect the vehicle tires and perform a walk-around check for Foreign Object Damage (FOD)" },
           { "id": 2, "option": "Report to the tower and request permission" },
@@ -976,8 +988,9 @@
       },
       {
         "id": 80,
+        "map": false,
         "question": "What is a runway incursion?",
-        "question-cat": "",
+        "question-cat": "incursion",
         "options": [
           { "id": 1, "option": "Any aircraft flying over the runway" },
           { "id": 2, "option": "The incorrect presence of an aircraft, vehicle, or person on the runway" },
@@ -987,8 +1000,9 @@
       },
       {
         "id": 81,
+        "map": false,
         "question": "Which of the following is NOT a cause of runway incursions?",
-        "question-cat": "",
+        "question-cat": "incursion",
         "options": [
           { "id": 1, "option": "Failure to follow procedures" },
           { "id": 2, "option": "Inadequate vehicle operator training" },
@@ -998,8 +1012,9 @@
       },
       {
         "id": 82,
+        "map": false,
         "question": "What happens to a vehicle operator who commits a runway incursion?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "They are fined" },
           { "id": 2, "option": "Their AF Form 483 is surrendered and privileges are temporarily suspended" },
@@ -1009,8 +1024,9 @@
       },
       {
         "id": 83,
+        "map": false,
         "question": "Who is responsible for analyzing runway incursions to develop corrective actions?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "Air Traffic Control" },
           { "id": 2, "option": "Runway Incursion Prevention Working Group (RIPWG)" },
@@ -1020,8 +1036,9 @@
       },
       {
         "id": 84,
+        "map": false,
         "question": "What is the main goal of the Runway Incursion Prevention Working Group (RIPWG)?",
-        "question-cat": "",
+        "question-cat": "incursion",
         "options": [
           { "id": 1, "option": "To ensure vehicles move quickly on the runway" },
           { "id": 2, "option": "To prevent runway incursions by analyzing and applying corrective measures" },
@@ -1031,8 +1048,9 @@
       },
       {
         "id": 85,
+        "map": false,
         "question": "What is the minimum penalty for a first-time Controlled Movement Area (CMA) violation?",
-        "question-cat": "",
+        "question-cat": "incursion",
         "options": [
           { "id": 1, "option": "Loss of airfield driving privileges for 10 days" },
           { "id": 2, "option": "Loss of airfield driving privileges for 30 days" },
@@ -1042,8 +1060,9 @@
       },
       {
         "id": 86,
+        "map": false,
         "question": "After how many CMA violations can an individual lose airfield driving privileges permanently?",
-        "question-cat": "",
+        "question-cat": "incursion",
         "options": [
           { "id": 1, "option": "After the first violation" },
           { "id": 2, "option": "After the second violation" },
@@ -1053,8 +1072,9 @@
       },
       {
         "id": 87,
+        "map": false,
         "question": "What must happen immediately after a CMA violation is suspected or committed?",
-        "question-cat": "",
+        "question-cat": "incursion",
         "options": [
           { "id": 1, "option": "An investigation and retraining must be completed" },
           { "id": 2, "option": "The vehicle operator must be fined" },
@@ -1064,8 +1084,9 @@
       },
       {
         "id": 88,
+        "map": false,
         "question": "When parking next to an aircraft, how must the vehicle be positioned?",
-        "question-cat": "",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "Parallel to the aircraft" },
           { "id": 2, "option": "Clear of the aircraft's wing tips" },
@@ -1075,8 +1096,9 @@
       }, 
       {
         "id": 89,
+        "map": false,
         "question": "When you see a 'Follow Me' truck leading an aircraft, what must you avoid?",
-        "question-cat": "",
+        "question-cat": "incursion",
         "options": [
           { "id": 1, "option": "Avoid driving behind the aircraft" },
           { "id": 2, "option": "Avoid driving in front of the aircraft" },
@@ -1086,7 +1108,9 @@
       },
       {
         "id": 90,
+        "map": false,
         "question": "If a vehicle does not have a radio or phone, what should the operator do to contact ATC?",
+        "question-cat": "general",
         "options": [
           { "id": 1, "option": "Turn the vehicle toward the tower and flash headlights" },
           { "id": 2, "option": "Honk the vehicle’s horn" },

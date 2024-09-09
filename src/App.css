@@ -43,11 +43,11 @@ header {
 }
 
 button {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   border: none;
   background-color: rgba(204, 203, 203, 0.469);
   padding: 20px;
-  border-radius: 60px;
+  border-radius: 20px;
 }
 
 .navigation-buttons {
@@ -86,6 +86,8 @@ button {
   font-size: 3.5rem;
   margin: 10px 0;
   padding: 20px;
+  cursor: pointer;
+  text-align: start;
 }
 
 .answer-button:hover {
@@ -106,10 +108,115 @@ button {
 }
 
 .question-number {
-position: absolute;
-  top: 20px;
-  left: 20px;
+position: relative;
+  top: 100px;
+  left: 50px;
   font-size: 2rem;
   padding: 10px;
   
+}
+
+.QR-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+
+}
+
+.QR-number {
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 25px;
+  text-align: center;
+}
+
+.QRquestion {
+  height: 40px;
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(79, 78, 78, 0.856);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+.input-info-con {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+.input-info-con input, .input-info-con select {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.input-info-con label {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.modal-button {
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.score-sheet {
+  margin-top: 10px;
+}
+
+.finalScoreTxt {
+  font-size: 1rem;
+  text-align: start;
+}
+
+.member-info {
+  font-size: 1.5rem;
+  text-align: start;
+  margin-bottom: 50px;
+ 
+}
+.member-name, .member-unit {
+  margin: 10px 0;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.score-table th, .score-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.score-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
 }

@@ -276,6 +276,11 @@
         "ref": "DAFI 13-213 Dyess Supp, Figure A10.1"
       },
       {
+        "id": 56,
+        "correct_answer": 1,
+        "ref": "DAFI 13-213 Dyess Supp, Figure A10.1"
+      },
+      {
         "id": 57,
         "correct_answer": 1,
         "ref": "DAFI 13-213 Dyess Supp, Figure A10.1"
@@ -443,7 +448,7 @@
       {
         "id": 90,
         "correct_answer": 1,
-        "paragraph_reference": "DAFI 13-213, Paragraph 4.12"
+        "ref": "DAFI 13-213, Paragraph 4.12"
       }
     ]
   }
