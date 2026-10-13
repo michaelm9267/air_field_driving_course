@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "checked": [
+    "practice feedback",
+    "navigation retains choices",
+    "flags",
+    "map load and zoom",
+    "resources retain session",
+    "hidden test feedback",
+    "complete 14-question knowledge check",
+    "results",
+    "mobile overflow"
+  ],
+  "browserErrors": []
+}

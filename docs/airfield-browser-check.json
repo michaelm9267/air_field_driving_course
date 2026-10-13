@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "checks": [
+    "study sketch",
+    "feature highlighting",
+    "desktop and mobile zoom",
+    "fit resets focus and scroll",
+    "unchanged original diagram",
+    "readable legend",
+    "mobile overflow",
+    "published-only quiz map"
+  ],
+  "browserErrors": []
+}

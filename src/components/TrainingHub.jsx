@@ -1,0 +1,12 @@
+import React from 'react';
+import {moduleDefinitions} from '../study/modules';
+import {scenarioCollections} from '../study/scenarios';
+import ScenarioTrainer from './training/ScenarioTrainer';
+import MapTrainer from './training/MapTrainer';
+import RadioTrainer from './training/RadioTrainer';
+import VisualTrainer from './training/VisualTrainer';
+import Icon from './Icon';
+export default function TrainingHub({moduleId,onOpenModule,onBack,onResult,active=true}) {
+ const module=moduleDefinitions.find(m=>m.id===moduleId);
+ return <main id={active?'main-content':undefined} className="page training-page"><div className="page-heading"><span className="eyebrow">ELMENDORF TRAINING LAB</span><h1>{module?module.title:'Practice the decisions that matter.'}</h1><p>{module?module.description:'Short, visual exercises for communication, recognition, and safe airfield decisions.'}</p></div>{module?<><button className="button quiet module-back" onClick={onBack}><Icon name="back"/>All training modules</button><div className="training-workspace">{moduleId==='scenarios'||moduleId==='winter'?<ScenarioTrainer key={moduleId} moduleId={moduleId} exercises={scenarioCollections[moduleId]} onResult={onResult}/>:moduleId==='map'?<MapTrainer onResult={onResult}/>:moduleId==='radio'?<RadioTrainer active={active} onResult={onResult}/>:moduleId==='visual'?<VisualTrainer onResult={onResult}/>:null}</div></>:<><div className="training-module-grid">{moduleDefinitions.map(m=><button className="panel training-module-card" aria-label={`Open ${m.title}`} key={m.id} onClick={()=>onOpenModule(m.id)}><span className="module-card-top"><span className="topic-icon"><Icon name={m.icon}/></span><span>{m.count} {m.id==='quiz'?'questions':'exercises'}</span></span><h2>{m.title}</h2><p>{m.description}</p><span className="text-link">Open module <Icon name="arrow"/></span></button>)}</div><div className="source-note"><Icon name="shield"/><div><strong>Learn the decision, not just the answer.</strong><p>Wrong choices explain the hazard. Corrected completion and first-attempt accuracy are recorded separately. Switching modules restarts an unfinished exercise; browsing other pages preserves your current module.</p></div></div></>}<div className="training-strip"><Icon name="shield"/><p><strong>Simulated training only.</strong> Use current locally issued diagrams and official ADPM/ADTCS procedures for operational requirements.</p></div></main>;
+}

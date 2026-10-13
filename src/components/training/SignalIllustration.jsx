@@ -1,0 +1,12 @@
+import React from 'react';
+const descriptions={'steady-green':'Steady green light','steady-red':'Steady red light','flashing-red':'Flashing red light','flashing-white':'Flashing white light',alternating:'Alternating red and green lights',guard:'Alternating yellow lights in two paired fixtures',mandatory:'White runway numbers on a red sign',direction:'Black taxiway letter and arrow on yellow',location:'Yellow taxiway letter on black',vfr:'Two solid and two dashed parallel yellow pavement lines',instrument:'Yellow ladder-style pavement marking'};
+export default function SignalIllustration({kind,paused}) {
+ const light=['steady-green','steady-red','flashing-red','flashing-white','alternating'].includes(kind),flash=kind.startsWith('flashing');
+ return <div className={`signal-illustration ${paused?'animation-paused':''}`}><svg viewBox="0 0 500 200" role="img" aria-label={descriptions[kind]}><rect width="500" height="200" rx="12" fill="#203543"/>
+ {light&&(kind==='alternating'?<><circle cx="185" cy="100" r="42" fill="#ef5555" className="signal-alternate-first"/><circle cx="315" cy="100" r="42" fill="#57cda0" className="signal-alternate-second"/></>:<><circle cx="250" cy="100" r="62" fill="#ffffff08"/><circle cx="250" cy="100" r="42" fill={kind.includes('green')?'#57cda0':kind.includes('white')?'#fff':'#ef5555'} className={flash?'signal-flash':''}/></>)}
+ {kind==='guard'&&[95,170,330,405].map((x,i)=><g key={x}><rect x={x-34} y="66" width="68" height="68" rx="8" fill="#101e25"/><circle cx={x} cy="100" r="25" fill="#f4ce50" className={i%2?'signal-alternate-second':'signal-alternate-first'}/></g>)}
+ {['mandatory','direction','location'].includes(kind)&&<><rect x="110" y="55" width="280" height="90" rx="4" stroke={kind==='location'?'#f4ce50':'#fff'} strokeWidth="3" fill={kind==='mandatory'?'#b6323c':kind==='direction'?'#f4ce50':'#101e25'}/><text x="250" y="115" textAnchor="middle" fontFamily="sans-serif" fontSize="45" fontWeight="700" fill={kind==='mandatory'?'white':kind==='direction'?'#141c20':'#f4ce50'}>{kind==='mandatory'?'06 – 24':kind==='direction'?'B →':'B'}</text></>}
+ {kind==='vfr'&&<g stroke="#f4ce50" strokeWidth="7"><path d="M40 50H460M40 80H460"/><path d="M40 120H460M40 150H460" strokeDasharray="28 17"/></g>}
+ {kind==='instrument'&&<g stroke="#f4ce50" strokeWidth="6"><path d="M40 55H460M40 145H460"/>{[95,170,245,320,395].map(x=><path key={x} d={`M${x} 55V145M${x+13} 55V145`}/>)}</g>}
+ </svg><p className="signal-pattern">{descriptions[kind]}{paused?' · animation paused':''}</p></div>;
+}

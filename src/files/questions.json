@@ -1,0 +1,1372 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "map": false,
+      "question": "What must a driver carry as evidence of airfield driving certification?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "A practice quiz result"
+        },
+        {
+          "id": 2,
+          "option": "Only a state driver\u2019s license"
+        },
+        {
+          "id": 3,
+          "option": "A vehicle maintenance record"
+        },
+        {
+          "id": 4,
+          "option": "A current AF Form 483"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "map": false,
+      "question": "What is the JBER system used for airfield driving training and testing?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "This practice app"
+        },
+        {
+          "id": 2,
+          "option": "A vehicle dispatch log"
+        },
+        {
+          "id": 3,
+          "option": "ADTCS"
+        },
+        {
+          "id": 4,
+          "option": "A parking permit portal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "map": false,
+      "question": "How often does the 3 WG supplement require refresher training?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "Every three years"
+        },
+        {
+          "id": 2,
+          "option": "Annually"
+        },
+        {
+          "id": 3,
+          "option": "Only after a violation"
+        },
+        {
+          "id": 4,
+          "option": "Only when changing vehicles"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "map": false,
+      "question": "Which vehicle has priority over general vehicles at Elmendorf Airfield?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "A taxiing or towed aircraft"
+        },
+        {
+          "id": 2,
+          "option": "A vehicle arriving late"
+        },
+        {
+          "id": 3,
+          "option": "A privately owned vehicle"
+        },
+        {
+          "id": 4,
+          "option": "A vehicle using headlights"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "map": false,
+      "question": "Which side of a taxiway is used for routine vehicle operations at Elmendorf?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "The left-hand side"
+        },
+        {
+          "id": 2,
+          "option": "The centerline at all times"
+        },
+        {
+          "id": 3,
+          "option": "Either side without regard to signs"
+        },
+        {
+          "id": 4,
+          "option": "The right-hand side"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "map": false,
+      "question": "How close may a vehicle drive to fueling or defueling operations without specific authorization?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "Within 5 feet"
+        },
+        {
+          "id": 2,
+          "option": "Within 10 feet"
+        },
+        {
+          "id": 3,
+          "option": "It must remain at least 50 feet away"
+        },
+        {
+          "id": 4,
+          "option": "Any distance if hazard lights are on"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "map": false,
+      "question": "What is the normal speed limit for general-purpose vehicles on taxiways, unless an approved supplement allows more?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "5 mph"
+        },
+        {
+          "id": 2,
+          "option": "15 mph"
+        },
+        {
+          "id": 3,
+          "option": "25 mph on every taxiway"
+        },
+        {
+          "id": 4,
+          "option": "There is no limit"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "map": false,
+      "question": "What speed does the 3 WG supplement designate for parallel taxiways D, E, M, N, and R?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "25 mph"
+        },
+        {
+          "id": 2,
+          "option": "40 mph"
+        },
+        {
+          "id": 3,
+          "option": "35 mph"
+        },
+        {
+          "id": 4,
+          "option": "No posted limit"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "map": false,
+      "question": "What is the speed limit when a vehicle operates within 50 feet of an aircraft?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "10 mph"
+        },
+        {
+          "id": 2,
+          "option": "15 mph"
+        },
+        {
+          "id": 3,
+          "option": "25 mph"
+        },
+        {
+          "id": 4,
+          "option": "5 mph"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "map": false,
+      "question": "What maximum speed applies on paved surfaces in reduced visibility or when snow and ice are present?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "15 mph"
+        },
+        {
+          "id": 2,
+          "option": "25 mph"
+        },
+        {
+          "id": 3,
+          "option": "10 mph"
+        },
+        {
+          "id": 4,
+          "option": "The usual posted limit regardless of conditions"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "map": false,
+      "question": "What is the aircraft towing speed limit?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "10 mph"
+        },
+        {
+          "id": 2,
+          "option": "5 mph"
+        },
+        {
+          "id": 3,
+          "option": "15 mph"
+        },
+        {
+          "id": 4,
+          "option": "25 mph"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "map": false,
+      "question": "What is the taxiway speed limit for special-purpose vehicles such as tugs, forklifts, or sweepers?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "10 mph"
+        },
+        {
+          "id": 2,
+          "option": "15 mph"
+        },
+        {
+          "id": 3,
+          "option": "25 mph"
+        },
+        {
+          "id": 4,
+          "option": "35 mph"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "map": false,
+      "question": "When an aircraft\u2019s engines are running, what minimum front and rear clearances apply?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "5 feet in front and 25 feet behind"
+        },
+        {
+          "id": 2,
+          "option": "25 feet both front and rear"
+        },
+        {
+          "id": 3,
+          "option": "200 feet in front and 5 feet behind"
+        },
+        {
+          "id": 4,
+          "option": "25 feet in front and 200 feet behind"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "map": false,
+      "question": "What minimum separation is required from a helicopter with rotors in motion?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "10 feet"
+        },
+        {
+          "id": 2,
+          "option": "25 feet"
+        },
+        {
+          "id": 3,
+          "option": "100 feet"
+        },
+        {
+          "id": 4,
+          "option": "50 feet"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "map": false,
+      "question": "How should an unattended vehicle be oriented beside an aircraft?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "With the rear bumper against the aircraft"
+        },
+        {
+          "id": 2,
+          "option": "With the driver\u2019s side facing the aircraft and clear of aircraft movement"
+        },
+        {
+          "id": 3,
+          "option": "Directly beneath a wing"
+        },
+        {
+          "id": 4,
+          "option": "Across the aircraft taxi route"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "map": false,
+      "question": "What is required when backing a vehicle toward an aircraft during an authorized servicing operation?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "A spotter and prepositioned wheel chocks"
+        },
+        {
+          "id": 2,
+          "option": "Only a backup camera"
+        },
+        {
+          "id": 3,
+          "option": "Only hazard lights"
+        },
+        {
+          "id": 4,
+          "option": "No extra precautions at walking speed"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "map": false,
+      "question": "What must a FOD check include?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "Only check the fuel level"
+        },
+        {
+          "id": 2,
+          "option": "Only inspect the windshield"
+        },
+        {
+          "id": 3,
+          "option": "Only switch on hazard lights"
+        },
+        {
+          "id": 4,
+          "option": "Inspect tires, secure exterior components and loads, and walk around the vehicle"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "map": false,
+      "question": "Where must a FOD check be performed under the September 2026 guidance?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "Only at the unit parking lot"
+        },
+        {
+          "id": 2,
+          "option": "Only after a runway incursion"
+        },
+        {
+          "id": 3,
+          "option": "At all FOD checkpoints identified by signs or pavement markings"
+        },
+        {
+          "id": 4,
+          "option": "Only when directed by an aircraft crew"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "map": false,
+      "question": "What does the 3 WG supplement prohibit inside the CMA?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "Cellphone usage, including hands-free calls"
+        },
+        {
+          "id": 2,
+          "option": "Monitoring the approved ATC radio frequency"
+        },
+        {
+          "id": 3,
+          "option": "Reading back ATC instructions"
+        },
+        {
+          "id": 4,
+          "option": "Using required vehicle warning lights"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "map": false,
+      "question": "What does the 3 WG supplement require at an instrument hold line, when present?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Stop and request ATC Tower permission before proceeding"
+        },
+        {
+          "id": 2,
+          "option": "Stop only if visibility is below two miles"
+        },
+        {
+          "id": 3,
+          "option": "Continue if the runway looks clear"
+        },
+        {
+          "id": 4,
+          "option": "Use hazard lights and drive through"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "map": false,
+      "question": "What should drivers do about faded markings after Elmendorf winter operations?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Assume the CMA boundary no longer applies"
+        },
+        {
+          "id": 2,
+          "option": "Use the shortest route across the runway"
+        },
+        {
+          "id": 3,
+          "option": "Follow another vehicle without clearance"
+        },
+        {
+          "id": 4,
+          "option": "Use extra caution and identify hold markings, signs, and runway guard lights"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "map": false,
+      "question": "When are Elmendorf night orientations seasonally waived under the local supplement?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "All year"
+        },
+        {
+          "id": 2,
+          "option": "1 October until 1 May"
+        },
+        {
+          "id": 3,
+          "option": "1 May until 1 September, with completion no later than 1 October"
+        },
+        {
+          "id": 4,
+          "option": "Only on federal holidays"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "map": false,
+      "question": "What is the local requirement before entering a restricted or classified airfield area?",
+      "question-cat": "general",
+      "options": [
+        {
+          "id": 1,
+          "option": "Cross any red line if the road is empty"
+        },
+        {
+          "id": 2,
+          "option": "Use a designated entry control point and have the required authorization"
+        },
+        {
+          "id": 3,
+          "option": "Enter wherever a vehicle fits"
+        },
+        {
+          "id": 4,
+          "option": "Airfield driving certification alone authorizes entry"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "map": false,
+      "question": "What must operators do with ATC instructions?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "Read them back verbatim"
+        },
+        {
+          "id": 2,
+          "option": "Reply only with \u201cRoger\u201d to every instruction"
+        },
+        {
+          "id": 3,
+          "option": "Read back only the runway number"
+        },
+        {
+          "id": 4,
+          "option": "Wait until after moving to acknowledge"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "map": false,
+      "question": "What does \u201cGo ahead\u201d authorize?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "Enter the runway"
+        },
+        {
+          "id": 2,
+          "option": "Continue with the requested movement"
+        },
+        {
+          "id": 3,
+          "option": "Cross the CMA boundary"
+        },
+        {
+          "id": 4,
+          "option": "Transmit your message only"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "map": false,
+      "question": "What should you do when you do not understand an ATC instruction?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "Guess the most likely route"
+        },
+        {
+          "id": 2,
+          "option": "Proceed and clarify afterward"
+        },
+        {
+          "id": 3,
+          "option": "Ask the controller to say again before taking action"
+        },
+        {
+          "id": 4,
+          "option": "Follow the vehicle ahead"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "map": false,
+      "question": "What does \u201cRoger\u201d mean?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "You are cleared to cross"
+        },
+        {
+          "id": 2,
+          "option": "The last transmission was received"
+        },
+        {
+          "id": 3,
+          "option": "The request is approved"
+        },
+        {
+          "id": 4,
+          "option": "You may ignore a hold-short instruction"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "map": false,
+      "question": "What does \u201cNegative\u201d mean?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "No, permission not granted, or that is not correct"
+        },
+        {
+          "id": 2,
+          "option": "Cross immediately"
+        },
+        {
+          "id": 3,
+          "option": "Repeat the runway number twice"
+        },
+        {
+          "id": 4,
+          "option": "Return to the parking ramp automatically"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "map": false,
+      "question": "In this training scenario, ATC says: \u201cAirfield One, hold short of runway zero six.\u201d Which readback is appropriate?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "\u201cAirfield One, Roger.\u201d"
+        },
+        {
+          "id": 2,
+          "option": "\u201cAirfield One, crossing runway zero six.\u201d"
+        },
+        {
+          "id": 3,
+          "option": "\u201cAirfield One, Go ahead.\u201d"
+        },
+        {
+          "id": 4,
+          "option": "\u201cAirfield One, hold short of runway zero six.\u201d"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "map": false,
+      "question": "After an authorized runway crossing, what report should you make?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "No report is needed"
+        },
+        {
+          "id": 2,
+          "option": "Report that the runway is open for landing"
+        },
+        {
+          "id": 3,
+          "option": "Report crossing complete, off the runway, and your location"
+        },
+        {
+          "id": 4,
+          "option": "Switch off the radio immediately"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "map": false,
+      "question": "Which radio alphabet sequence represents A, B, C, and D?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "Able, Baker, Charles, Dog"
+        },
+        {
+          "id": 2,
+          "option": "Alpha, Bravo, Charlie, Delta"
+        },
+        {
+          "id": 3,
+          "option": "Adam, Boston, Captain, David"
+        },
+        {
+          "id": 4,
+          "option": "Alpha, Beta, Charlie, Denver"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "map": false,
+      "question": "Which call-sign practice is required for CMA operations?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "Use a distinct, approved call sign coordinated by the ADPM"
+        },
+        {
+          "id": 2,
+          "option": "Choose any taxiway letter as a call sign"
+        },
+        {
+          "id": 3,
+          "option": "Use a different name every day"
+        },
+        {
+          "id": 4,
+          "option": "Use only your first name"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "map": false,
+      "question": "What radio equipment is required for vehicles operating in the CMA daily?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "A handheld only in every case"
+        },
+        {
+          "id": 2,
+          "option": "A mobile phone instead of a radio"
+        },
+        {
+          "id": 3,
+          "option": "A radio only during nighttime operations"
+        },
+        {
+          "id": 4,
+          "option": "A permanently mounted radio; a handheld serves as backup or for use outside the vehicle"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "map": false,
+      "question": "While operating in the CMA, what must operators continuously monitor?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "Only the unit dispatch channel"
+        },
+        {
+          "id": 2,
+          "option": "Only their mobile phone"
+        },
+        {
+          "id": 3,
+          "option": "The appropriate radio frequency"
+        },
+        {
+          "id": 4,
+          "option": "No frequency after clearance is received"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "map": false,
+      "question": "What does a steady red tower light-gun signal mean to a ground vehicle?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "Return to the starting point"
+        },
+        {
+          "id": 2,
+          "option": "Stop; do not move"
+        },
+        {
+          "id": 3,
+          "option": "Proceed"
+        },
+        {
+          "id": 4,
+          "option": "Clear the runway at normal speed"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "map": false,
+      "question": "What does a flashing white tower light-gun signal mean?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "Return to the starting point"
+        },
+        {
+          "id": 2,
+          "option": "Proceed onto the runway"
+        },
+        {
+          "id": 3,
+          "option": "Stop indefinitely"
+        },
+        {
+          "id": 4,
+          "option": "Exercise extreme caution"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "map": false,
+      "question": "What does an alternating red and green light-gun signal mean?",
+      "question-cat": "communication",
+      "options": [
+        {
+          "id": 1,
+          "option": "Routine permission to cross"
+        },
+        {
+          "id": 2,
+          "option": "Return to the starting point"
+        },
+        {
+          "id": 3,
+          "option": "Stop and turn the engine off"
+        },
+        {
+          "id": 4,
+          "option": "General warning: exercise extreme caution"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "map": false,
+      "question": "What is required before a driver or pedestrian enters the CMA?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Only a valid state driver\u2019s license"
+        },
+        {
+          "id": 2,
+          "option": "A clear visual view of the runway"
+        },
+        {
+          "id": 3,
+          "option": "Specific ATC Tower approval, or movement with a qualified escort under the required clearance"
+        },
+        {
+          "id": 4,
+          "option": "Permission from any nearby driver"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "map": false,
+      "question": "At Elmendorf, approximately how far before the hold line should you request CMA entry permission?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "At the hold line after crossing it"
+        },
+        {
+          "id": 2,
+          "option": "100 feet"
+        },
+        {
+          "id": 3,
+          "option": "10 feet past the line"
+        },
+        {
+          "id": 4,
+          "option": "One mile past the line"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "map": false,
+      "question": "What must you do if the tower flashes runway edge lights while you are on the runway?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Exit the runway immediately"
+        },
+        {
+          "id": 2,
+          "option": "Stop on the runway and wait"
+        },
+        {
+          "id": 3,
+          "option": "Continue until the scheduled task ends"
+        },
+        {
+          "id": 4,
+          "option": "Ignore the signal if your radio works"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "map": false,
+      "question": "What is the required response to radio failure while on the runway?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Remain on the runway while dialing a phone"
+        },
+        {
+          "id": 2,
+          "option": "Finish the task before leaving"
+        },
+        {
+          "id": 3,
+          "option": "Drive to the opposite threshold to troubleshoot"
+        },
+        {
+          "id": 4,
+          "option": "Exit immediately, then notify Tower and Airfield Management using another available means"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "map": false,
+      "question": "After safely vacating the runway, how can a driver signal the tower if radio and other communications are unavailable?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Flash headlights while remaining on the runway"
+        },
+        {
+          "id": 2,
+          "option": "Enter the runway again to attract attention"
+        },
+        {
+          "id": 3,
+          "option": "Face the vehicle toward the tower, flash headlights, and watch for light-gun signals"
+        },
+        {
+          "id": 4,
+          "option": "Turn off all lights and continue"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "map": false,
+      "question": "May ATC issue blanket approval for vehicle runway entry?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Yes, for every vehicle in the unit"
+        },
+        {
+          "id": 2,
+          "option": "No; unconditional runway-entry instructions are not authorized"
+        },
+        {
+          "id": 3,
+          "option": "Yes, whenever flying is paused"
+        },
+        {
+          "id": 4,
+          "option": "Yes, if a driver has a radio"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "map": false,
+      "question": "What must a vehicle use when driving in the CMA?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "LED or rotating beacon lights and/or emergency or hazard warning flashers"
+        },
+        {
+          "id": 2,
+          "option": "Headlights only with all warning lights off"
+        },
+        {
+          "id": 3,
+          "option": "No lights during daylight"
+        },
+        {
+          "id": 4,
+          "option": "A horn instead of warning lights"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "map": false,
+      "question": "Does permission to enter Elmendorf\u2019s instrument critical area automatically authorize runway entry?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Yes, whenever the runway is empty"
+        },
+        {
+          "id": 2,
+          "option": "Yes, if the vehicle is mission essential"
+        },
+        {
+          "id": 3,
+          "option": "Yes, during daytime operations"
+        },
+        {
+          "id": 4,
+          "option": "No; runway access requires its own applicable clearance"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "map": false,
+      "question": "Which official may escort others into the CMA?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Any holder of a state driver\u2019s license"
+        },
+        {
+          "id": 2,
+          "option": "Any vehicle passenger with a radio"
+        },
+        {
+          "id": 3,
+          "option": "An escort trained and certified for CMA driving"
+        },
+        {
+          "id": 4,
+          "option": "Any driver certified only for ramp access"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "map": false,
+      "question": "How must escorted personnel be positioned relative to the escort official?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Out of sight if they know the destination"
+        },
+        {
+          "id": 2,
+          "option": "Visible at all times and in close proximity"
+        },
+        {
+          "id": 3,
+          "option": "Anywhere within radio range"
+        },
+        {
+          "id": 4,
+          "option": "At least one taxiway behind"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "map": false,
+      "question": "May runways, taxiways, or the CMA be used simply as a convenient shortcut?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "No; use perimeter, in-field, or other airfield roads to the maximum extent possible"
+        },
+        {
+          "id": 2,
+          "option": "Yes, with hazard lights"
+        },
+        {
+          "id": 3,
+          "option": "Yes, if no aircraft are visible"
+        },
+        {
+          "id": 4,
+          "option": "Yes, during a lunch break"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "map": false,
+      "question": "A vehicle becomes disabled on the airfield. What should the operator do?",
+      "question-cat": "incursion",
+      "options": [
+        {
+          "id": 1,
+          "option": "Leave the unlit vehicle and walk away"
+        },
+        {
+          "id": 2,
+          "option": "Assume the tower can see the problem"
+        },
+        {
+          "id": 3,
+          "option": "Wait silently for maintenance"
+        },
+        {
+          "id": 4,
+          "option": "Leave warning lights on, alert nearby traffic, and report the emergency and location by radio if equipped"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "map": true,
+      "question": "On the Elmendorf diagram, which runway designation is shown on the east\u2013west runway?",
+      "question-cat": "map/diagram",
+      "options": [
+        {
+          "id": 1,
+          "option": "18/36"
+        },
+        {
+          "id": 2,
+          "option": "09/27"
+        },
+        {
+          "id": 3,
+          "option": "06/24"
+        },
+        {
+          "id": 4,
+          "option": "01/19"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "map": true,
+      "question": "On the Elmendorf diagram, which runway designation is shown on the north\u2013south runway?",
+      "question-cat": "map/diagram",
+      "options": [
+        {
+          "id": 1,
+          "option": "03/21"
+        },
+        {
+          "id": 2,
+          "option": "16/34"
+        },
+        {
+          "id": 3,
+          "option": "08/26"
+        },
+        {
+          "id": 4,
+          "option": "12/30"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "map": true,
+      "question": "Which color represents the Controlled Movement Area in the Elmendorf diagram legend?",
+      "question-cat": "map/diagram",
+      "options": [
+        {
+          "id": 1,
+          "option": "Light blue"
+        },
+        {
+          "id": 2,
+          "option": "Bright red"
+        },
+        {
+          "id": 3,
+          "option": "Solid black"
+        },
+        {
+          "id": 4,
+          "option": "Dark green"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "map": true,
+      "question": "Which color identifies instrument hold lines in the Elmendorf diagram legend?",
+      "question-cat": "map/diagram",
+      "options": [
+        {
+          "id": 1,
+          "option": "Blue"
+        },
+        {
+          "id": 2,
+          "option": "White"
+        },
+        {
+          "id": 3,
+          "option": "Green"
+        },
+        {
+          "id": 4,
+          "option": "Red"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "map": true,
+      "question": "Which color identifies VFR hold lines in the Elmendorf diagram legend?",
+      "question-cat": "map/diagram",
+      "options": [
+        {
+          "id": 1,
+          "option": "Purple"
+        },
+        {
+          "id": 2,
+          "option": "Black"
+        },
+        {
+          "id": 3,
+          "option": "Yellow"
+        },
+        {
+          "id": 4,
+          "option": "Blue"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "map": true,
+      "question": "What do red-shaded areas represent in the Elmendorf diagram legend?",
+      "question-cat": "map/diagram",
+      "options": [
+        {
+          "id": 1,
+          "option": "Public parking"
+        },
+        {
+          "id": 2,
+          "option": "Restricted areas"
+        },
+        {
+          "id": 3,
+          "option": "Unrestricted vehicle routes"
+        },
+        {
+          "id": 4,
+          "option": "Snow-storage areas"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "map": true,
+      "question": "Where are Airfield Management and the Tower labeled on the Elmendorf diagram?",
+      "question-cat": "map/diagram",
+      "options": [
+        {
+          "id": 1,
+          "option": "South of runway 06/24, near the transient area and hangars H1\u2013H3"
+        },
+        {
+          "id": 2,
+          "option": "On the north edge beside Hangar 20"
+        },
+        {
+          "id": 3,
+          "option": "At the western runway threshold"
+        },
+        {
+          "id": 4,
+          "option": "Inside the north cargo loop"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "map": true,
+      "question": "Which runway hold marking has two solid and two dashed yellow lines, with dashed lines on the runway side?",
+      "question-cat": "map/diagram",
+      "options": [
+        {
+          "id": 1,
+          "option": "The taxiway centerline"
+        },
+        {
+          "id": 2,
+          "option": "A restricted-area red line"
+        },
+        {
+          "id": 3,
+          "option": "A vehicle lane edge stripe"
+        },
+        {
+          "id": 4,
+          "option": "The VFR runway hold position"
+        }
+      ]
+    }
+  ]
+}

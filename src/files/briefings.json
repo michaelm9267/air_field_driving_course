@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "source-editions",
+      "title": "Know which edition you are studying",
+      "category": "source",
+      "body": "This app was reviewed against the supplied DAFI including the 30 September 2026 guidance memorandum, and the 3 WG supplement certified current 19 February 2026. Confirm subsequent changes through official publications and your ADPM.",
+      "effectiveDate": "2026-10-12",
+      "reviewDate": "2027-09-30",
+      "sourceCitation": "DAFGM2026-01; 3 WG supplement front matter",
+      "sourceUrl": "https://static.e-publishing.af.mil/production/1/af_a3/publication/dafi13-213/dafi13-213.pdf",
+      "author": "Study reference",
+      "reviewer": "Supplied publication review"
+    },
+    {
+      "id": "winter-limits",
+      "title": "Winter movement requires a fresh decision",
+      "category": "winter",
+      "body": "On paved surfaces in snow/ice or reduced visibility, reduce speed to 10 mph maximum, defer travel when possible, and limit operations to mission essential. A posted higher limit does not remove the conditions-based restriction.",
+      "effectiveDate": "2026-10-12",
+      "reviewDate": "2027-09-30",
+      "sourceCitation": "DAFGM2026-01, 4.8.1.11",
+      "sourceUrl": "https://static.e-publishing.af.mil/production/1/af_a3/publication/dafi13-213/dafi13-213.pdf",
+      "author": "Study reference",
+      "reviewer": "Supplied publication review"
+    },
+    {
+      "id": "instrument-holds",
+      "title": "Elmendorf instrument hold positions",
+      "category": "markings",
+      "body": "When an instrument hold position is present, stop and request Tower permission before proceeding. Permission inside the instrument critical area alone does not authorize runway entry.",
+      "effectiveDate": "2026-10-12",
+      "reviewDate": "2027-09-30",
+      "sourceCitation": "3 WG supplement, 4.6.4",
+      "sourceUrl": "https://static.e-publishing.af.mil/production/1/3wg/publication/dafi13-213_3wgsup/dafi13-213_3wgsup.pdf",
+      "author": "Study reference",
+      "reviewer": "Supplied publication review"
+    },
+    {
+      "id": "training-path",
+      "title": "Practice here; qualify through the official process",
+      "category": "training",
+      "body": "Complete required training and tests through your Unit ADPM and ADTCS. This app records personal practice only; it does not issue AF Form 483 or establish airfield driving privileges.",
+      "effectiveDate": "2026-10-12",
+      "reviewDate": "2027-09-30",
+      "sourceCitation": "3 WG supplement, 3.2.6 and 3.6; DAFGM2026-01, 3.4",
+      "sourceUrl": "https://static.e-publishing.af.mil/production/1/3wg/publication/dafi13-213_3wgsup/dafi13-213_3wgsup.pdf",
+      "author": "Study reference",
+      "reviewer": "Supplied publication review"
+    }
+  ]
+}

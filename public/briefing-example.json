@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "example-instrument-hold",
+      "title": "Elmendorf instrument hold positions",
+      "category": "markings",
+      "body": "When an instrument hold position is present, stop and request Tower permission before proceeding. Permission inside the instrument critical area alone does not authorize runway entry.",
+      "effectiveDate": "2026-10-12",
+      "reviewDate": "2027-09-30",
+      "sourceCitation": "3 WG supplement, 4.6.4",
+      "sourceUrl": "https://static.e-publishing.af.mil/production/1/3wg/publication/dafi13-213_3wgsup/dafi13-213_3wgsup.pdf",
+      "author": "ADPM role",
+      "reviewer": "Review role"
+    }
+  ]
+}

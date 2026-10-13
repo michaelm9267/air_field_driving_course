@@ -1,0 +1,15 @@
+const lights=[{id:'go',text:'Proceed / go'},{id:'stop',text:'Stop; do not move'},{id:'clear',text:'Clear taxiway / runway'},{id:'return',text:'Return to starting point'},{id:'caution',text:'Exercise extreme caution'}];
+const visual=(id,title,correct,explanation,reference,choices=lights,source='dafi')=>({id,title,kind:id,correct,explanation,reference,choices,source});
+export const visualExercises=[
+ visual('steady-green','Steady green','go','Steady green means cleared to cross, proceed, or go.','DAFI 13-213, 4.12.1'),
+ visual('steady-red','Steady red','stop','Steady red means stop and do not move.','DAFI 13-213, 4.12.2'),
+ visual('flashing-red','Flashing red','clear','Flashing red means clear the taxiway or runway.','DAFI 13-213, 4.12.3'),
+ visual('flashing-white','Flashing white','return','Flashing white means return to the starting point.','DAFI 13-213, 4.12.4'),
+ visual('alternating','Alternating red and green','caution','Alternating red and green is a general warning: exercise extreme caution.','DAFI 13-213, 4.12.5'),
+ visual('guard','Alternating yellow guard lights','hold','Runway guard lights identify a runway holding position. They are a visual warning, not a movement clearance.','3 WG supplement, 4.7.6 and Figure 4.18',[{id:'hold',text:'Runway holding-position warning'},{id:'go',text:'Permission to cross'},{id:'return',text:'Return to unit parking'}],'3wg'),
+ visual('mandatory','White-on-red runway sign','mandatory','A white legend on a red background is a mandatory sign. Stop at the hold position unless properly cleared.','DAFI 13-213, 4.5.1',[{id:'mandatory',text:'Mandatory runway / critical-area instruction'},{id:'location',text:'Taxiway location'},{id:'parking',text:'Vehicle parking'}]),
+ visual('direction','Black-on-yellow arrow sign','direction','A black legend and arrow on yellow indicate taxiway direction.','DAFI 13-213, 4.5.2.1',[{id:'direction',text:'Taxiway direction'},{id:'location',text:'Current taxiway location'},{id:'hold',text:'Runway clearance'}]),
+ visual('location','Yellow-on-black letter sign','location','A yellow legend on black identifies the taxiway on which you are located.','DAFI 13-213, 4.5.2.2',[{id:'direction',text:'Taxiway direction'},{id:'location',text:'Current taxiway location'},{id:'speed',text:'Speed limit'}]),
+ visual('vfr','Solid and dashed yellow lines','hold','The VFR hold position has two solid and two dashed yellow lines, dashed on the runway side. Stop short and obtain required clearance.','3 WG supplement, 4.6.3 and Figure 4.8',[{id:'hold',text:'VFR runway hold position'},{id:'parking',text:'Parking bay'},{id:'edge',text:'Taxiway centerline'}],'3wg'),
+ visual('instrument','Yellow ladder-style marking','instrument','The instrument hold position protects the instrument critical area. At Elmendorf, stop and request Tower permission when the marking is present.','3 WG supplement, 4.6.4 and Figure 4.9',[{id:'instrument',text:'Instrument hold position'},{id:'parking',text:'Aircraft parking outline'},{id:'edge',text:'Runway centerline'}],'3wg')
+];
