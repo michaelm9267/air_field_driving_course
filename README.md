@@ -1,8 +1,15 @@
 # 3 WG / JBER Airfield Driving
 
-A responsive React study companion for Elmendorf Airfield. Includes 57 explained questions, guided practice, knowledge checks with hidden feedback, topic selection, question flags, retained answers during navigation, category results, missed-question retries, printable results, and an airfield explorer with a clean study sketch, selectable landmarks, the original Elmendorf diagram, a readable legend, and zoom/fit controls.
+A responsive Elmendorf airfield-driving study companion built with React. It includes the 57-question quiz and source references, a clean map explorer, and an interactive Training Lab:
 
-Content was reviewed against the supplied DAFI 13-213 with DAFGM2026-01 (30 September 2026) and the 3 WG supplement (22 September 2023, certified current 19 February 2026). See [the content review](docs/content-review.md) for source precedence, corrections, scoring, and verification limits. This app is a practice aid; official certification remains with ADPM/ADTCS.
+- Six multistep decision scenarios and four winter/night scenarios.
+- Seven published-map/marking drills, including a simulated crossing sequence and text alternatives.
+- Six radio exercises with phrase construction, optional speech playback, and transcripts.
+- Eleven signal/sign/marking examples with Learn/Check modes, paused descriptions, and reduced-motion support.
+- Device-saved study progress, first-attempt trainer accuracy, quiz weak-category review, and recent activity.
+- Four dated local training references plus a local draft editor with validated JSON import/export.
+
+Content was reviewed against the supplied DAFI 13-213 with DAFGM2026-01 (30 September 2026) and the 3 WG supplement (22 September 2023, certified current 19 February 2026). See [content review](docs/content-review.md) for source precedence and limitations. Official certification remains with ADPM/ADTCS.
 
 ## Run locally
 
@@ -11,26 +18,27 @@ npm ci
 npm start
 ```
 
-If port 3000 is occupied:
-
-```sh
-PORT=3107 npm start
-```
+If port 3000 is occupied, use `PORT=3107 npm start`. The current development preview uses port 3107.
 
 ## Verify and build
 
 ```sh
 CI=true npm test -- --watchAll=false --runInBand
-npm run build
+CI=true npm run build
 ```
 
-The existing GitHub Pages homepage remains configured in `package.json`. The production build is generated in `build/`. Building does not publish the site.
+The GitHub Pages homepage remains configured in `package.json`. The production build goes to `build/`; building does not publish the app.
 
-## Maintain training content
+## Maintain content
 
-- `src/files/questions.json`: question IDs, categories, options, and diagram usage.
-- `src/files/answers.json`: paired answer IDs, explanations, paragraph/figure citations, and publication keys.
-- `src/files/course.js`: categories, official publication links, and edition information.
-- `src/images/elmendorf-map.jpeg`: original Attachment 13 raster from the supplied 3 WG supplement. Use the current WADPM-issued map for operational navigation.
+`src/files/questions.json` and `answers.json` are the paired quiz bank. `src/files/course.js` holds category/publication metadata. Training content lives in `src/study/scenarios.js`, `mapDrills.js`, `radioExercises.js`, and `visualExercises.js`.
 
-No personal information is required, collected, or stored. A session stays in memory while navigating between overview, resources, and practice; page reload starts over.
+The original map is `src/images/elmendorf-map.jpeg`. Its published resolution is preserved; the clean SVG study sketch is separate. Use the current WADPM-issued map for operations.
+
+Bundled briefing content lives in `src/files/briefings.json`. See [briefing maintenance](docs/briefing-maintenance.md) for the review, JSON exchange, rebuild, and authorized deployment workflow. Local drafts are not shared or authenticated operational notices.
+
+## Device data
+
+Study history and complete local drafts use localStorage key `jber-airfield-study-v1`. Disabling memory stops new activity/draft writes while retaining previously saved history. Turning memory back on saves the current session state. Clear study data requires confirmation and also clears local drafts; export important drafts first. Blocked/corrupt storage falls back to in-memory study with a warning.
+
+No student names, ranks, units, certification numbers, microphone recordings, or official qualification status are collected. Briefing attribution requests role text. Any draft entered on a shared browser profile may be visible to other users of that profile.

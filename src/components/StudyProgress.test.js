@@ -15,3 +15,9 @@ test('clearing history requires explicit confirmation',()=>{
  expect(JSON.parse(localStorage.getItem(STORAGE_KEY)).results).toHaveLength(1);
  fireEvent.click(screen.getByRole('button',{name:'Confirm clear'}));expect(JSON.parse(localStorage.getItem(STORAGE_KEY)).results).toHaveLength(0);
 });
+
+test('unresolved quiz questions identify their weak category',()=>{
+ const state={version:1,remember:true,results:[],drafts:[],quizHistory:[{id:'test',completedAt:'2026-10-12T12:00:00Z',outcomes:[{questionId:1,category:'general',correct:false}]}]};
+ render(<StudyProgress progress={{state,warning:'',setRemember:()=>{},clearProgress:()=>{}}}/>);
+ expect(screen.getByRole('heading',{name:'General knowledge',exact:true})).toBeInTheDocument();expect(screen.getByText('1 question to review')).toBeInTheDocument();
+});

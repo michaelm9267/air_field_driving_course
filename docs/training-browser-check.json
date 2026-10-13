@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "checks": [
+    "scenario safety and correction",
+    "module retention across pages",
+    "reload persistence",
+    "winter scenario",
+    "normalized map zoom",
+    "text alternative",
+    "crossing order",
+    "speech playback and cancellation",
+    "readback validation",
+    "hidden visual feedback",
+    "pause and reduced motion",
+    "memory-off writes",
+    "briefing import and export",
+    "unsafe import rejection",
+    "draft reload persistence",
+    "mobile overflow",
+    "audio fallback"
+  ],
+  "browserErrors": []
+}

@@ -11,3 +11,9 @@ test('playing speech is canceled when the trainer becomes inactive',()=>{
  const {rerender,unmount}=render(<RadioTrainer active/>);fireEvent.click(screen.getByRole('button',{name:'Play instruction'}));expect(speak.mock.calls[0][0].text).toMatch(/hold short/);
  cancel.mockClear();rerender(<RadioTrainer active={false}/>);expect(cancel).toHaveBeenCalled();unmount();delete window.speechSynthesis;delete window.SpeechSynthesisUtterance;
 });
+
+test('browser visibility change stops playback',()=>{
+ const cancel=jest.fn();Object.defineProperty(window,'speechSynthesis',{configurable:true,value:{cancel,speak:()=>{}}});window.SpeechSynthesisUtterance=function(t){this.text=t;};
+ const {unmount}=render(<RadioTrainer/>);cancel.mockClear();const hidden=Object.getOwnPropertyDescriptor(document,'hidden');Object.defineProperty(document,'hidden',{configurable:true,value:true});document.dispatchEvent(new Event('visibilitychange'));expect(cancel).toHaveBeenCalled();unmount();
+ if(hidden)Object.defineProperty(document,'hidden',hidden);else delete document.hidden;delete window.speechSynthesis;delete window.SpeechSynthesisUtterance;
+});

@@ -30,3 +30,13 @@ A topic session or missed-question retry is a study session, not the complete of
 Source PDFs, including the parent file's CUI-marked memorandum pages, are not copied into public assets. The app contains paraphrased study questions and references. The map comes from the supplement marked with no releasability restrictions. No student names, ranks, or units are collected or persisted. Answers stay in memory while the app remains open; reload clears them.
 
 Before official adoption, the WADPM should validate local operational currency, training coverage, and any future guidance changes. Use `src/files/course.js` for publication metadata, `questions.json` for questions, and `answers.json` for correct answers, explanations, citations, and source keys. Keep IDs paired and unique.
+
+## Interactive training suite
+
+Added six general decision scenarios, four winter/night scenarios, seven map/marking/sequence drills, six radio exercises, and eleven visual recognition examples. Content cites source paragraphs and separates simulated decisions from actual clearances. Scenarios include disabled-CMA vehicle notification/removal, unclear communications, aircraft priority, escort visibility, FOD, snow/ice speed, obscured markings, headlights, and restricted visibility.
+
+First-attempt trainer results capture the first evaluated response (per step for scenarios) and remain distinct from corrected completion. Quiz history records submitted answers and does not claim those were the first answers in practice mode. Corrected quiz outcomes remove weak-item suggestions without removing history.
+
+The simulated route exercise teaches decision order; it is not an invented approved Elmendorf geographical route. Radio phrase segments are deliberately constrained study exercises. Full operational requests still require approved call signs, actual positions, intended crossing locations, and complete ATC readbacks. Speech is optional and stops on navigation, exercise changes, browser-tab hiding, or explicit Stop.
+
+Visual examples distinguish steady/flashing/alternating patterns and retain descriptions under pause/reduced motion. The dated Local Briefing cards are training references, not live notices. Draft editor attribution is unverified role text; imported drafts remain local. Source PDFs and live operational feeds are not embedded or synthesized.

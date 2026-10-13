@@ -10,3 +10,16 @@ test('a corrected scenario preserves its failed first attempt',()=>{
  expect(onResult).toHaveBeenCalledTimes(1);expect(onResult.mock.calls[0][0]).toMatchObject({firstAttemptCorrect:false,correct:false,completed:true});
  expect(screen.getByRole('heading',{name:/scenario complete/i})).toHaveFocus();
 });
+
+test('exploring another choice does not erase a correct first decision',()=>{
+ const onResult=jest.fn();render(<ScenarioTrainer moduleId="scenarios" exercises={exercises} onResult={onResult}/>);
+ fireEvent.click(screen.getByRole('button',{name:'Exit runway'}));fireEvent.click(screen.getByRole('button',{name:'Wait on runway'}));fireEvent.click(screen.getByRole('button',{name:'Exit runway'}));fireEvent.click(screen.getByRole('button',{name:/complete scenario/i}));
+ expect(onResult.mock.calls[0][0].firstAttemptCorrect).toBe(true);
+});
+
+test('a completed scenario can be practiced again as a new attempt',()=>{
+ const onResult=jest.fn();render(<ScenarioTrainer moduleId="scenarios" exercises={exercises} onResult={onResult}/>);
+ fireEvent.click(screen.getByRole('button',{name:'Exit runway'}));fireEvent.click(screen.getByRole('button',{name:/complete scenario/i}));fireEvent.click(screen.getByRole('button',{name:'Try again'}));
+ fireEvent.click(screen.getByRole('button',{name:'Exit runway'}));fireEvent.click(screen.getByRole('button',{name:/complete scenario/i}));
+ expect(onResult).toHaveBeenCalledTimes(2);expect(onResult.mock.calls[0][0].id).not.toBe(onResult.mock.calls[1][0].id);
+});

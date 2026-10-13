@@ -17,3 +17,9 @@ test('crossing sequence rejects premature crossing',()=>{
  fireEvent.click(screen.getByRole('button',{name:'Add step: Cross the runway'}));fireEvent.click(screen.getByRole('button',{name:'Check sequence'}));
  expect(screen.getByRole('status')).toHaveTextContent('Reconsider');expect(screen.getByRole('button',{name:'Complete drill'})).toBeDisabled();
 });
+
+test('first evaluated map answer remains correct after exploring another target',()=>{
+ const onResult=jest.fn();render(<MapTrainer onResult={onResult}/>);
+ fireEvent.click(screen.getByRole('button',{name:'Map target A'}));fireEvent.click(screen.getByRole('button',{name:'Map target B'}));fireEvent.click(screen.getByRole('button',{name:'Map target A'}));fireEvent.click(screen.getByRole('button',{name:'Complete drill'}));
+ expect(onResult.mock.calls[0][0].firstAttemptCorrect).toBe(true);
+});

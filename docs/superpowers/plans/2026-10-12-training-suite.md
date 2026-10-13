@@ -40,10 +40,10 @@
 - Exercise results extend the approved interface with `id`, `completed`, and `firstAttemptCorrect`; `correct` denotes the first-attempt outcome, not an erased retry history.
 - `useStudyProgress()` exposes `{ state, warning, recordExercise(result), recordQuiz(result), saveDrafts(drafts), setRemember(enabled), clearProgress() }`.
 
-- [ ] Write tests asserting invalid JSON/version and thrown reads yield an empty usable state; a quota failure returns a warning; duplicate event IDs produce one record; memory-off records update memory without writing attempts.
-- [ ] Run `CI=true npm test -- --watchAll=false --runInBand src/study/progress.test.js`; inspect the expected failures before implementation.
-- [ ] Implement schema validation, guarded storage access, result deduplication, and hook. Persist the user's memory setting once when changed; after disabling, stop result/draft writes. Keep any already saved history until the user explicitly clears it.
-- [ ] Run the complete test suite and record results in `docs/superpowers/plans/training-suite-execution.md`.
+- [x] Write tests asserting invalid JSON/version and thrown reads yield an empty usable state; a quota failure returns a warning; duplicate event IDs produce one record; memory-off records update memory without writing attempts.
+- [x] Run `CI=true npm test -- --watchAll=false --runInBand src/study/progress.test.js`; inspect the expected failures before implementation.
+- [x] Implement schema validation, guarded storage access, result deduplication, and hook. Persist the user's memory setting once when changed; after disabling, stop result/draft writes. Keep any already saved history until the user explicitly clears it.
+- [x] Run the complete test suite and record results in `docs/superpowers/plans/training-suite-execution.md`.
 
 ## Task 2: General and winter/night decision scenarios
 
@@ -54,10 +54,10 @@
 - Each exercise has `id`, `title`, `situation`, `steps`, and sources. Each step supplies choices with stable IDs, `correctChoice`, explanations, and wrong-choice consequences.
 - `ScenarioTrainer({ moduleId, exercises, onResult })` emits one result per completed attempt through the Task 1 interface. `ExerciseFeedback({ correct, explanation, reference, source })` renders reusable sourced feedback.
 
-- [ ] Write tests where an incorrect first choice followed by correction completes the exercise with `firstAttemptCorrect: false`; wrong choices cannot advance; next exercise clears feedback; completed content moves focus to its heading.
-- [ ] Run the focused tests and verify these behaviors fail before adding code.
-- [ ] Implement six general exercises (radio failure, disabled CMA vehicle, unclear instruction, aircraft priority, separated escort, FOD) and four winter/night exercises (snow/ice speed, faded/obscured markings, headlights, visibility). Every scenario has at least two decisions and cited feedback.
-- [ ] Verify content against source extracts, run the whole test suite, and update the ledger.
+- [x] Write tests where an incorrect first choice followed by correction completes the exercise with `firstAttemptCorrect: false`; wrong choices cannot advance; next exercise clears feedback; completed content moves focus to its heading.
+- [x] Run the focused tests and verify these behaviors fail before adding code.
+- [x] Implement six general exercises (radio failure, disabled CMA vehicle, unclear instruction, aircraft priority, separated escort, FOD) and four winter/night exercises (snow/ice speed, faded/obscured markings, headlights, visibility). Every scenario has at least two decisions and cited feedback.
+- [x] Verify content against source extracts, run the whole test suite, and update the ledger.
 
 ## Task 3: Published map drills and crossing sequence
 
@@ -68,10 +68,10 @@
 - Location targets use `{ id, label, x, y }`, where `x`/`y` are normalized source-image percentages; before submission labels identify neutral targets A/B/C rather than their answers.
 - `MapTrainer({ onResult })` supports published-image target selection, a text alternative, zoom/fit controls, and a route sequence built from stable step IDs.
 
-- [ ] Write tests asserting wrong target feedback, correct result emission, identical normalized target placement after zoom, no pre-answer target-name leakage, working text selection, and rejection of an out-of-order crossing sequence.
-- [ ] Run and inspect the focused failing tests.
-- [ ] Implement runway 06/24, runway 16/34, Management/Tower, CMA legend, VFR marking, and instrument marking drills. Use the published image for locations and sourced illustrative markings where recognition is required. Implement simulated crossing sequence: stop short, obtain specific clearance, read back, visually scan, cross, report off/location.
-- [ ] Run the full suite and inspect desktop/mobile target scaling in the browser; update the ledger.
+- [x] Write tests asserting wrong target feedback, correct result emission, identical normalized target placement after zoom, no pre-answer target-name leakage, working text selection, and rejection of an out-of-order crossing sequence.
+- [x] Run and inspect the focused failing tests.
+- [x] Implement runway 06/24, runway 16/34, Management/Tower, CMA legend, VFR marking, and instrument marking drills. Use the published image for locations and sourced illustrative markings where recognition is required. Implement simulated crossing sequence: stop short, obtain specific clearance, read back, visually scan, cross, report off/location.
+- [x] Run the full suite and inspect desktop/mobile target scaling in the browser; update the ledger.
 
 ## Task 4: Simulated radio trainer
 
@@ -81,10 +81,10 @@
 - `radioExercises` contains six exercises with `id`, `transcript`, labeled phrase segments, accepted ordered segment-ID sequences, explanation, reference, and source.
 - `RadioTrainer({ onResult })` constructs an answer from selectable segments; learners can remove/reset segments before checking.
 
-- [ ] Write tests rejecting a missing hold-short restriction or runway number, accepting the complete prescribed sequence, keeping the transcript available without speech, and canceling a supported speech adapter when switching exercises or unmounting.
-- [ ] Run and verify the expected failures. Mock only the external speech API, not answer evaluation.
-- [ ] Implement hold-short, route restrictions, say-again, go-ahead, crossing-complete, and escort exercises. Add optional Play/Stop browser speech, visible transcript, unavailable-audio message, and cleanup. Explain that synthetic speech is a training convenience and accepted phrase ordering follows the exercise, not an operational speech-recognition system.
-- [ ] Run the entire suite and update the ledger.
+- [x] Write tests rejecting a missing hold-short restriction or runway number, accepting the complete prescribed sequence, keeping the transcript available without speech, and canceling a supported speech adapter when switching exercises or unmounting.
+- [x] Run and verify the expected failures. Mock only the external speech API, not answer evaluation.
+- [x] Implement hold-short, route restrictions, say-again, go-ahead, crossing-complete, and escort exercises. Add optional Play/Stop browser speech, visible transcript, unavailable-audio message, and cleanup. Explain that synthetic speech is a training convenience and accepted phrase ordering follows the exercise, not an operational speech-recognition system.
+- [x] Run the entire suite and update the ledger.
 
 ## Task 5: Animated signal and marking recognition
 
@@ -96,10 +96,10 @@
 - `SignalIllustration({ kind, paused })` provides a semantic image description identifying the visual pattern without revealing its meaning.
 - `VisualTrainer({ onResult })` exposes Learn/Check modes and pause control.
 
-- [ ] Write tests showing Check mode hides meanings/references until an answer, Learn reveals explanations, Pause preserves a textual flashing/steady/alternating cue, and changing examples clears feedback.
-- [ ] Run the focused tests and inspect failures.
-- [ ] Implement large SVG/CSS examples, explicit answer choices, sourced feedback, slow animation, and a reduced-motion CSS override. No visual meaning depends only on animation or color.
-- [ ] Run the full suite and inspect reduced-motion behavior in a real browser; update the ledger.
+- [x] Write tests showing Check mode hides meanings/references until an answer, Learn reveals explanations, Pause preserves a textual flashing/steady/alternating cue, and changing examples clears feedback.
+- [x] Run the focused tests and inspect failures.
+- [x] Implement large SVG/CSS examples, explicit answer choices, sourced feedback, slow animation, and a reduced-motion CSS override. No visual meaning depends only on animation or color.
+- [x] Run the full suite and inspect reduced-motion behavior in a real browser; update the ledger.
 
 ## Task 6: Progress dashboard and quiz integration
 
@@ -111,10 +111,10 @@
 - Extend `QuestionBox` with optional `onComplete(result)`; emit a stable event once from explicit Finish, including `{ id, completedAt, testMode, outcomes: [{ questionId, category, correct }] }`.
 - `onReviewQuestions(questionIds)` launches an existing practice quiz filtered by missed IDs. Later correct quiz outcomes update the latest review suggestion while retaining attempt history.
 
-- [ ] Write tests proving a rerender does not duplicate a finished quiz, a corrected review removes its weak-item suggestion without deleting history, memory toggle persists its preference, and clearing requires explicit confirmation.
-- [ ] Run and inspect failures.
-- [ ] Implement first-attempt accuracy, completed exercises, recent activity, weak categories, missed-question review, module links, memory setting, storage warnings, and local clear confirmation. Handle an empty history with useful launch actions.
-- [ ] Run all existing and new tests; update the ledger.
+- [x] Write tests proving a rerender does not duplicate a finished quiz, a corrected review removes its weak-item suggestion without deleting history, memory toggle persists its preference, and clearing requires explicit confirmation.
+- [x] Run and inspect failures.
+- [x] Implement first-attempt accuracy, completed exercises, recent activity, weak categories, missed-question review, module links, memory setting, storage warnings, and local clear confirmation. Handle an empty history with useful launch actions.
+- [x] Run all existing and new tests; update the ledger.
 
 ## Task 7: Local briefing editor and JSON exchange
 
@@ -125,10 +125,10 @@
 - `validateBriefing(entry) -> errors`, `parseBriefingImport(text) -> { entries, errors }`, `briefingDateStatus(entry, today) -> 'upcoming' | 'within review period' | 'expired'` use calendar-day comparisons. Review date is inclusive; the following local date is expired.
 - `LocalBriefing({ drafts, onSaveDrafts, storageWarning })` maintains local drafts through Task 1 and exports a versioned JSON file.
 
-- [ ] Write tests for required fields, malformed dates, review-before-effective dates, unsafe links, duplicate import IDs, malformed JSON, safe literal rendering, and expiry across local date boundaries. Assert imported drafts never become bundled/shared references.
-- [ ] Run and inspect the expected failures.
-- [ ] Implement four dated sourced training-reference cards, local editing, validation, file import, JSON download, local-draft labels, and visible expiry/upcoming status. Provide the sample file and exact reviewed-data-file/rebuild workflow. Cap import file size and reject invalid schemas without overwriting valid drafts.
-- [ ] Run the full suite and browser-check import/export; update the ledger.
+- [x] Write tests for required fields, malformed dates, review-before-effective dates, unsafe links, duplicate import IDs, malformed JSON, safe literal rendering, and expiry across local date boundaries. Assert imported drafts never become bundled/shared references.
+- [x] Run and inspect the expected failures.
+- [x] Implement four dated sourced training-reference cards, local editing, validation, file import, JSON download, local-draft labels, and visible expiry/upcoming status. Provide the sample file and exact reviewed-data-file/rebuild workflow. Cap import file size and reject invalid schemas without overwriting valid drafts.
+- [x] Run the full suite and browser-check import/export; update the ledger.
 
 ## Task 8: Suite navigation, styling, and end-to-end verification
 
@@ -140,13 +140,13 @@
 - App owns page/module navigation and one shared progress hook. Keep the quiz mounted across page navigation. Keep the active module mounted while its page is hidden; stop audio when leaving the trainer.
 - Add Training, Progress, and Local Briefing navigation with a wrapping mobile layout; show progress and training entry points on Overview.
 
-- [ ] Write integration tests launching every module, returning to an in-progress exercise, retaining the existing quiz, and starting a short missed-question review from Progress.
-- [ ] Run and inspect failures.
-- [ ] Integrate pages/modules and responsive styling. Add predictable heading focus on page/module transitions without focusing hidden content. Update run/content/maintenance documentation and ledger decisions.
-- [ ] Run `CI=true npm test -- --watchAll=false --runInBand` and `CI=true npm run build`; require successful exits.
-- [ ] Run browser flows for scenario retry/completion, map/text/sequence drills, radio fallback/playback cleanup, visual hidden answers/reduced motion, reload persistence, memory-off behavior, briefing import/export, and overflow at desktop, 390, and 320 pixels. Save representative previews and a check record.
-- [ ] Request one independent final code/content review through the review skill. Resolve material findings and repeat affected verification.
-- [ ] Mark plan/ledger tasks complete only when verified. Report additions, tests, preview URL, and material limits, including local-only drafts/progress and source currency.
+- [x] Write integration tests launching every module, returning to an in-progress exercise, retaining the existing quiz, and starting a short missed-question review from Progress.
+- [x] Run and inspect failures.
+- [x] Integrate pages/modules and responsive styling. Add predictable heading focus on page/module transitions without focusing hidden content. Update run/content/maintenance documentation and ledger decisions.
+- [x] Run `CI=true npm test -- --watchAll=false --runInBand` and `CI=true npm run build`; require successful exits.
+- [x] Run browser flows for scenario retry/completion, map/text/sequence drills, radio fallback/playback cleanup, visual hidden answers/reduced motion, reload persistence, memory-off behavior, briefing import/export, and overflow at desktop, 390, and 320 pixels. Save representative previews and a check record.
+- [x] Request one independent final code/content review through the review skill. Resolve material findings and repeat affected verification.
+- [x] Mark plan/ledger tasks complete only when verified. Report additions, tests, preview URL, and material limits, including local-only drafts/progress and source currency.
 
 ## Plan self-review
 
