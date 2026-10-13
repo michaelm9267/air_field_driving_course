@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/air_field_driving_course/static/css/main.0da9f793.css",
-    "main.js": "/air_field_driving_course/static/js/main.5233cd25.js",
+    "main.css": "/air_field_driving_course/static/css/main.62ac7d4f.css",
+    "main.js": "/air_field_driving_course/static/js/main.bc447b1b.js",
     "static/js/453.6ca3bae3.chunk.js": "/air_field_driving_course/static/js/453.6ca3bae3.chunk.js",
-    "static/media/map.png": "/air_field_driving_course/static/media/map.c6c1c094e60ce954b712.png",
+    "static/media/elmendorf-map.jpeg": "/air_field_driving_course/static/media/elmendorf-map.b19c727f1a3ad87bd7d2.jpeg",
     "index.html": "/air_field_driving_course/index.html",
-    "main.0da9f793.css.map": "/air_field_driving_course/static/css/main.0da9f793.css.map",
-    "main.5233cd25.js.map": "/air_field_driving_course/static/js/main.5233cd25.js.map",
+    "main.62ac7d4f.css.map": "/air_field_driving_course/static/css/main.62ac7d4f.css.map",
+    "main.bc447b1b.js.map": "/air_field_driving_course/static/js/main.bc447b1b.js.map",
     "453.6ca3bae3.chunk.js.map": "/air_field_driving_course/static/js/453.6ca3bae3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0da9f793.css",
-    "static/js/main.5233cd25.js"
+    "static/css/main.62ac7d4f.css",
+    "static/js/main.bc447b1b.js"
   ]
 }
